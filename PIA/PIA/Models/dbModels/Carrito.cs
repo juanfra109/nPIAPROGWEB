@@ -24,6 +24,6 @@ namespace PIA.Models.dbModels
         public virtual Libro IdLibroNavigation { get; set; } = null!;
         [ForeignKey("IdUsuario")]
         [InverseProperty("Carritos")]
-        public virtual Usuario IdUsuarioNavigation { get; set; } = null!;
+        public virtual ApplicationUser IdUsuarioNavigation { get; set; } = null!;
     }
 }

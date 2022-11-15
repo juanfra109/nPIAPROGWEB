@@ -31,7 +31,7 @@ namespace PIA.Models.dbModels
         public virtual Cmetodopag IdmetodopagNavigation { get; set; } = null!;
         [ForeignKey("Idusuario")]
         [InverseProperty("Ordens")]
-        public virtual Usuario IdusuarioNavigation { get; set; } = null!;
+        public virtual ApplicationUser IdusuarioNavigation { get; set; } = null!;
         [InverseProperty("IdordenNavigation")]
         public virtual ICollection<Ordendetalle> Ordendetalles { get; set; }
     }

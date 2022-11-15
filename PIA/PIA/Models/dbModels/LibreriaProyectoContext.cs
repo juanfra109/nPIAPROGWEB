@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace PIA.Models.dbModels
 {
-    public partial class LibreriaProyectoContext : DbContext
+    public partial class LibreriaProyectoContext : IdentityDbContext<ApplicationUser, IdentityRole<int>, int>
     {
         public LibreriaProyectoContext()
         {
@@ -21,13 +23,12 @@ namespace PIA.Models.dbModels
         public virtual DbSet<Categoria> Categorias { get; set; } = null!;
         public virtual DbSet<Cmetodopag> Cmetodopags { get; set; } = null!;
         public virtual DbSet<Editoriale> Editoriales { get; set; } = null!;
-        public virtual DbSet<IdRol> IdRols { get; set; } = null!;
         public virtual DbSet<Libro> Libros { get; set; } = null!;
         public virtual DbSet<Orden> Ordens { get; set; } = null!;
         public virtual DbSet<Ordendetalle> Ordendetalles { get; set; } = null!;
         public virtual DbSet<Solicitude> Solicitudes { get; set; } = null!;
         public virtual DbSet<Sugerencia> Sugerencias { get; set; } = null!;
-        public virtual DbSet<Usuario> Usuarios { get; set; } = null!;
+        public virtual DbSet<ApplicationUser> Usuarios { get; set; } = null!;
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -39,7 +40,7 @@ namespace PIA.Models.dbModels
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
+        {     
             modelBuilder.Entity<Carrito>(entity =>
             {
                 entity.HasKey(e => new { e.IdUsuario, e.IdLibro });
@@ -112,6 +113,8 @@ namespace PIA.Models.dbModels
             });
 
             OnModelCreatingPartial(modelBuilder);
+            base.OnModelCreating(modelBuilder);
+
         }
 
         partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
