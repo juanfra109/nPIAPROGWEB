@@ -15,23 +15,10 @@ public class ApplicationUser : IdentityUser<int>
         Ordens = new HashSet<Orden>();
     }
 
-    [Key]
-    [Column("idusuario")]
-    public int Idusuario { get; set; }
     [Column("nombre")]
     [StringLength(50)]
     [Unicode(false)]
     public string Nombre { get; set; } = null!;
-    [Column("email")]
-    [StringLength(50)]
-    [Unicode(false)]
-    public string Email { get; set; } = null!;
-    [Column("contraseña")]
-    [StringLength(50)]
-    [Unicode(false)]
-    public string Contraseña { get; set; } = null!;
-    [Column("idRol")]
-    public int IdRol { get; set; }
     [Column("calle")]
     [StringLength(50)]
     [Unicode(false)]

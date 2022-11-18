@@ -8,11 +8,19 @@ var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<LibreriaProyectoContext>(options =>
     options.UseSqlServer(connectionString));
+
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
-builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-    .AddEntityFrameworkStores<LibreriaProyectoContext>();
+builder.Services.AddIdentity<ApplicationUser, IdentityRole<int>>(options => options.SignIn.RequireConfirmedAccount = true)
+    .AddEntityFrameworkStores<LibreriaProyectoContext>()
+    .AddDefaultTokenProviders();
 builder.Services.AddControllersWithViews();
+builder.Services.AddRazorPages();
+/*builder.Services.ConfigureApplicationCookie(option =>
+{
+    option.LoginPath = "/Account/Identity/Login";
+    option.AccessDeniedPath = "/Account/Identity/AccessDenied";
+});*/
 
 var app = builder.Build();
 
