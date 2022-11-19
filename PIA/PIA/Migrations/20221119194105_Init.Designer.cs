@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using PIA.Models.dbModels;
 
@@ -11,9 +12,10 @@ using PIA.Models.dbModels;
 namespace PIA.Migrations
 {
     [DbContext(typeof(LibreriaProyectoContext))]
-    partial class LibreriaProyectoContextModelSnapshot : ModelSnapshot
+    [Migration("20221119194105_Init")]
+    partial class Init
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
