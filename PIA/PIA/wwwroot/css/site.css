@@ -27,11 +27,14 @@ p{
 }
 h1{
   text-align: left;
+  color: purple;
 }
 h2{
   text-align: left;
+  color: gold;
 
 }
 .imagen1{
   margin-top: 150px;
+  margin-left: 50px;
 }
