@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace PIA.Migrations
 {
-    public partial class LibreriaPIA : Migration
+    public partial class Init : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -30,11 +30,7 @@ namespace PIA.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    idusuario = table.Column<int>(type: "int", nullable: false),
                     nombre = table.Column<string>(type: "varchar(50)", unicode: false, maxLength: 50, nullable: false),
-                    email = table.Column<string>(type: "varchar(256)", unicode: false, maxLength: 256, nullable: false),
-                    contraseña = table.Column<string>(type: "varchar(50)", unicode: false, maxLength: 50, nullable: false),
-                    idRol = table.Column<int>(type: "int", nullable: false),
                     calle = table.Column<string>(type: "varchar(50)", unicode: false, maxLength: 50, nullable: false),
                     estado = table.Column<string>(type: "varchar(50)", unicode: false, maxLength: 50, nullable: false),
                     ciudad = table.Column<string>(type: "varchar(50)", unicode: false, maxLength: 50, nullable: false),
@@ -43,6 +39,7 @@ namespace PIA.Migrations
                     codpos = table.Column<string>(type: "varchar(50)", unicode: false, maxLength: 50, nullable: false),
                     UserName = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
                     NormalizedUserName = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
+                    Email = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
                     NormalizedEmail = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
                     EmailConfirmed = table.Column<bool>(type: "bit", nullable: false),
                     PasswordHash = table.Column<string>(type: "nvarchar(max)", nullable: true),

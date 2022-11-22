@@ -49,9 +49,9 @@ namespace PIA.Controllers
         // GET: Libroes/Create
         public IActionResult Create()
         {
-            ViewData["Autor"] = new SelectList(_context.Autores, "IdAutor", "IdAutor");
-            ViewData["Categoria"] = new SelectList(_context.Categorias, "IdCategoria", "IdCategoria");
-            ViewData["Editorial"] = new SelectList(_context.Editoriales, "Ideditorial", "Ideditorial");
+            ViewData["Autor"] = new SelectList(_context.Autores, "IdAutor", "Nombre");
+            ViewData["Categoria"] = new SelectList(_context.Categorias, "IdCategoria", "Descripción");
+            ViewData["Editorial"] = new SelectList(_context.Editoriales, "Ideditorial", "Nombre");
             return View();
         }
 
@@ -68,9 +68,9 @@ namespace PIA.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["Autor"] = new SelectList(_context.Autores, "IdAutor", "IdAutor", libro.Autor);
-            ViewData["Categoria"] = new SelectList(_context.Categorias, "IdCategoria", "IdCategoria", libro.Categoria);
-            ViewData["Editorial"] = new SelectList(_context.Editoriales, "Ideditorial", "Ideditorial", libro.Editorial);
+            ViewData["Autor"] = new SelectList(_context.Autores, "IdAutor", "Nombre", libro.Autor);
+            ViewData["Categoria"] = new SelectList(_context.Categorias, "IdCategoria", "Descripción", libro.Categoria);
+            ViewData["Editorial"] = new SelectList(_context.Editoriales, "Ideditorial", "Nombre", libro.Editorial);
             return View(libro);
         }
 
@@ -87,9 +87,9 @@ namespace PIA.Controllers
             {
                 return NotFound();
             }
-            ViewData["Autor"] = new SelectList(_context.Autores, "IdAutor", "IdAutor", libro.Autor);
-            ViewData["Categoria"] = new SelectList(_context.Categorias, "IdCategoria", "IdCategoria", libro.Categoria);
-            ViewData["Editorial"] = new SelectList(_context.Editoriales, "Ideditorial", "Ideditorial", libro.Editorial);
+            ViewData["Autor"] = new SelectList(_context.Autores, "IdAutor", "Nombre", libro.Autor);
+            ViewData["Categoria"] = new SelectList(_context.Categorias, "IdCategoria", "Descripción", libro.Categoria);
+            ViewData["Editorial"] = new SelectList(_context.Editoriales, "Ideditorial", "Nombre", libro.Editorial);
             return View(libro);
         }
 
@@ -125,9 +125,9 @@ namespace PIA.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["Autor"] = new SelectList(_context.Autores, "IdAutor", "IdAutor", libro.Autor);
-            ViewData["Categoria"] = new SelectList(_context.Categorias, "IdCategoria", "IdCategoria", libro.Categoria);
-            ViewData["Editorial"] = new SelectList(_context.Editoriales, "Ideditorial", "Ideditorial", libro.Editorial);
+            ViewData["Autor"] = new SelectList(_context.Autores, "IdAutor", "Nombre", libro.Autor);
+            ViewData["Categoria"] = new SelectList(_context.Categorias, "IdCategoria", "Descripción", libro.Categoria);
+            ViewData["Editorial"] = new SelectList(_context.Editoriales, "Ideditorial", "Nombre", libro.Editorial);
             return View(libro);
         }
 

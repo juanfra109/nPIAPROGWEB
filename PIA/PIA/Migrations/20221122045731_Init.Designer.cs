@@ -12,8 +12,8 @@ using PIA.Models.dbModels;
 namespace PIA.Migrations
 {
     [DbContext(typeof(LibreriaProyectoContext))]
-    [Migration("20221115065824_LibreriaPIA")]
-    partial class LibreriaPIA
+    [Migration("20221122045731_Init")]
+    partial class Init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -60,19 +60,9 @@ namespace PIA.Migrations
                         .IsConcurrencyToken()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Contraseña")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .IsUnicode(false)
-                        .HasColumnType("varchar(50)")
-                        .HasColumnName("contraseña");
-
                     b.Property<string>("Email")
-                        .IsRequired()
                         .HasMaxLength(256)
-                        .IsUnicode(false)
-                        .HasColumnType("varchar(256)")
-                        .HasColumnName("email");
+                        .HasColumnType("nvarchar(256)");
 
                     b.Property<bool>("EmailConfirmed")
                         .HasColumnType("bit");
@@ -83,14 +73,6 @@ namespace PIA.Migrations
                         .IsUnicode(false)
                         .HasColumnType("varchar(50)")
                         .HasColumnName("estado");
-
-                    b.Property<int>("IdRol")
-                        .HasColumnType("int")
-                        .HasColumnName("idRol");
-
-                    b.Property<int>("Idusuario")
-                        .HasColumnType("int")
-                        .HasColumnName("idusuario");
 
                     b.Property<bool>("LockoutEnabled")
                         .HasColumnType("bit");
