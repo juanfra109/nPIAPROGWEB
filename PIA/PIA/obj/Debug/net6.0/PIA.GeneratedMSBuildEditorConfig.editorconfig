@@ -243,10 +243,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ21ldG9kb3BhZ3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Cmetodopags/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ21ldG9kb3BhZ3NcRGV0YWlscy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Cmetodopags/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ21ldG9kb3BhZ3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -273,6 +269,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Editoriales/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRpdG9yaWFsZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Home/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Home/Index.cshtml]

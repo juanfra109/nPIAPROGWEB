@@ -143,6 +143,13 @@ namespace PIA.Areas.Identity.Pages.Account
             if (ModelState.IsValid)
             {
                 var user = CreateUser();
+                user.Calle = Input.calle;
+                user.Ciudad = Input.ciudad;
+                user.Nombre = Input.nombre;
+                user.Estado = Input.estado;
+                user.NumeroExt = Input.numeroExt;
+                user.Pais = Input.pais;
+                user.Codpos = Input.codpos;
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
                 var result = await _userManager.CreateAsync(user, Input.Password);
