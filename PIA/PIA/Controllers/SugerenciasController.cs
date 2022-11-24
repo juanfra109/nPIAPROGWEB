@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using PIA.Models.dbModels;
+using System.Globalization;
+
 
 namespace PIA.Controllers
 {
@@ -57,6 +59,7 @@ namespace PIA.Controllers
         {
             if (ModelState.IsValid)
             {
+                sugerencia.Fecha = DateTime.Now;
                 _context.Add(sugerencia);
                 await _context.SaveChangesAsync();
                 return RedirectToAction("Index", "Home");
