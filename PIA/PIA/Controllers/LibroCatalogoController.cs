@@ -5,28 +5,27 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using PIA.Dto;
 using PIA.Models.dbModels;
 
 namespace PIA.Controllers
 {
-    public class LibroesController : Controller
+    public class LibroCatalogoController : Controller
     {
         private readonly LibreriaProyectoContext _context;
 
-        public LibroesController(LibreriaProyectoContext context)
+        public LibroCatalogoController(LibreriaProyectoContext context)
         {
             _context = context;
         }
 
-        // GET: Libroes
+        // GET: LibroCatalogo
         public async Task<IActionResult> Index()
         {
             var libreriaProyectoContext = _context.Libros.Include(l => l.AutorNavigation).Include(l => l.CategoriaNavigation).Include(l => l.EditorialNavigation);
             return View(await libreriaProyectoContext.ToListAsync());
         }
 
-        // GET: Libroes/Details/5
+        // GET: LibroCatalogo/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.Libros == null)
@@ -47,44 +46,35 @@ namespace PIA.Controllers
             return View(libro);
         }
 
-        // GET: Libroes/Create
+        // GET: LibroCatalogo/Create
         public IActionResult Create()
         {
-            ViewData["Autor"] = new SelectList(_context.Autores, "IdAutor", "Nombre");
-            ViewData["Categoria"] = new SelectList(_context.Categorias, "IdCategoria", "Descripción");
-            ViewData["Editorial"] = new SelectList(_context.Editoriales, "Ideditorial", "Nombre");
+            ViewData["Autor"] = new SelectList(_context.Autores, "IdAutor", "IdAutor");
+            ViewData["Categoria"] = new SelectList(_context.Categorias, "IdCategoria", "IdCategoria");
+            ViewData["Editorial"] = new SelectList(_context.Editoriales, "Ideditorial", "Ideditorial");
             return View();
         }
 
-        // POST: Libroes/Create
+        // POST: LibroCatalogo/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create( LibroCreateDto libro)
+        public async Task<IActionResult> Create([Bind("IdLibro,Nombre,Autor,Añopublicacion,Descripcion,Categoria,Precio,Editorial,Imagen")] Libro libro)
         {
             if (ModelState.IsValid)
             {
-                Libro libronu = new Libro();
-                libronu.Autor = libro.Autor;
-                libronu.Categoria = libro.Categoria;
-                libronu.Editorial = libro.Editorial;  
-                libronu.Nombre = libro.Nombre;
-                libronu.Precio = libro.Precio;
-                libronu.Imagen = libro.Imagen;
-                libronu.Añopublicacion = libro.Añopublicacion;
-                libronu.Descripcion = libro.Descripcion;
-                _context.Add(libronu);
+                _context.Add(libro);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["Autor"] = new SelectList(_context.Autores, "IdAutor", "Nombre", libro.Autor);
-            ViewData["Categoria"] = new SelectList(_context.Categorias, "IdCategoria", "Descripción", libro.Categoria);
-            ViewData["Editorial"] = new SelectList(_context.Editoriales, "Ideditorial", "Nombre", libro.Editorial);
+            ViewData["Autor"] = new SelectList(_context.Autores, "IdAutor", "IdAutor", libro.Autor);
+            ViewData["Categoria"] = new SelectList(_context.Categorias, "IdCategoria", "IdCategoria", libro.Categoria);
+            ViewData["Editorial"] = new SelectList(_context.Editoriales, "Ideditorial", "Ideditorial", libro.Editorial);
             return View(libro);
         }
 
-        // GET: Libroes/Edit/5
+        // GET: LibroCatalogo/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.Libros == null)
@@ -97,18 +87,18 @@ namespace PIA.Controllers
             {
                 return NotFound();
             }
-            ViewData["Autor"] = new SelectList(_context.Autores, "IdAutor", "Nombre", libro.Autor);
-            ViewData["Categoria"] = new SelectList(_context.Categorias, "IdCategoria", "Descripción", libro.Categoria);
-            ViewData["Editorial"] = new SelectList(_context.Editoriales, "Ideditorial", "Nombre", libro.Editorial);
+            ViewData["Autor"] = new SelectList(_context.Autores, "IdAutor", "IdAutor", libro.Autor);
+            ViewData["Categoria"] = new SelectList(_context.Categorias, "IdCategoria", "IdCategoria", libro.Categoria);
+            ViewData["Editorial"] = new SelectList(_context.Editoriales, "Ideditorial", "Ideditorial", libro.Editorial);
             return View(libro);
         }
 
-        // POST: Libroes/Edit/5
+        // POST: LibroCatalogo/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, LibroCreateDto LibroNu, Libro libro)
+        public async Task<IActionResult> Edit(int id, [Bind("IdLibro,Nombre,Autor,Añopublicacion,Descripcion,Categoria,Precio,Editorial,Imagen")] Libro libro)
         {
             if (id != libro.IdLibro)
             {
@@ -117,19 +107,9 @@ namespace PIA.Controllers
 
             if (ModelState.IsValid)
             {
-                
                 try
                 {
-                    Libro libronu = new Libro();
-                    libronu.Autor = libro.Autor;
-                    libronu.Categoria = libro.Categoria;
-                    libronu.Editorial = libro.Editorial;
-                    libronu.Nombre = libro.Nombre;
-                    libronu.Precio = libro.Precio;
-                    libronu.Imagen = libro.Imagen;
-                    libronu.Añopublicacion = libro.Añopublicacion;
-                    libronu.Descripcion = libro.Descripcion;
-                    _context.Update(libronu);
+                    _context.Update(libro);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
@@ -145,13 +125,13 @@ namespace PIA.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["Autor"] = new SelectList(_context.Autores, "IdAutor", "Nombre", libro.Autor);
-            ViewData["Categoria"] = new SelectList(_context.Categorias, "IdCategoria", "Descripción", libro.Categoria);
-            ViewData["Editorial"] = new SelectList(_context.Editoriales, "Ideditorial", "Nombre", libro.Editorial);
+            ViewData["Autor"] = new SelectList(_context.Autores, "IdAutor", "IdAutor", libro.Autor);
+            ViewData["Categoria"] = new SelectList(_context.Categorias, "IdCategoria", "IdCategoria", libro.Categoria);
+            ViewData["Editorial"] = new SelectList(_context.Editoriales, "Ideditorial", "Ideditorial", libro.Editorial);
             return View(libro);
         }
 
-        // GET: Libroes/Delete/5
+        // GET: LibroCatalogo/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.Libros == null)
@@ -172,7 +152,7 @@ namespace PIA.Controllers
             return View(libro);
         }
 
-        // POST: Libroes/Delete/5
+        // POST: LibroCatalogo/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
