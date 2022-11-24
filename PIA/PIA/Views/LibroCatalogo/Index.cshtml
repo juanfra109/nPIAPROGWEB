@@ -6,67 +6,25 @@
 
 <h1>Nuestro catalogo</h1>
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Nombre)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Añopublicacion)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Descripcion)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Precio)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Imagen)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.AutorNavigation)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.CategoriaNavigation)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.EditorialNavigation)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
+
 @foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Nombre)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Añopublicacion)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Descripcion)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Precio)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Imagen)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.AutorNavigation.Nombre)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CategoriaNavigation.Descripción)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.EditorialNavigation.Nombre)
-            </td>
-            <td>
-                <a asp-action="Details" asp-route-id="@item.IdLibro">Details</a> |
-            </td>
-        </tr>
+            
+            <main>
+                <article>
+                    <h3>@Html.DisplayFor(modelItem => item.Nombre)</h3><hr>
+
+                </article>
+                <aside>
+                    <img class="imagenprod" src="@Html.DisplayFor(modelItem => item.Imagen)" align="right"><br />
+
+                </aside>
+                <header>
+                    <h5>Precio: $@Html.DisplayFor(modelItem => item.Precio)</h5><br />
+                    <h6>Autor: @Html.DisplayFor(modelItem => item.AutorNavigation.Nombre)</h6><br />
+                </header>
+                <p>@Html.DisplayFor(modelItem => item.Descripcion)</p>
+                <a asp-action="Details" asp-route-id="@item.IdLibro">Details</a>
+                <hr /><br/><br/>
+
+            </main>
 }
-    </tbody>
-</table>

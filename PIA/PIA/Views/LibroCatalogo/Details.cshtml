@@ -4,63 +4,28 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
+<h1>Detalle  @Html.DisplayFor(model => model.Nombre)</h1>
 
+<main>
+    <article>
+        <h3> @Html.DisplayFor(model => model.Nombre)</h3><hr>
+
+    </article>
+    <aside>
+        <img class="imagenprod" src=" @Html.DisplayFor(model => model.Imagen)" align="right"><br />
+
+    </aside>
+    <header>
+        <h6>Año:  @Html.DisplayFor(model => model.Añopublicacion)</h6><br />
+        <h6>Precio: $ @Html.DisplayFor(model => model.Precio)</h6><br />
+        <h6>Autor:  @Html.DisplayFor(model => model.AutorNavigation.Nombre)</h6><br />
+        <h6>Editorial:  @Html.DisplayFor(model => model.EditorialNavigation.Nombre)</h6><br />
+        <h6>Categoría:  @Html.DisplayFor(model => model.CategoriaNavigation.Descripción)</h6><br /><hr>
+    </header>
+    <p> @Html.DisplayFor(model => model.Descripcion)</p>
+    <br />
+
+</main>
 <div>
-    <h4>Libro</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Nombre)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Nombre)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Añopublicacion)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Añopublicacion)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Descripcion)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Descripcion)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Precio)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Precio)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Imagen)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Imagen)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.AutorNavigation)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.AutorNavigation.IdAutor)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.CategoriaNavigation)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.CategoriaNavigation.IdCategoria)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.EditorialNavigation)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.EditorialNavigation.Ideditorial)
-        </dd>
-    </dl>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.IdLibro">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Index">Regreso a Catalogo</a>
 </div>
