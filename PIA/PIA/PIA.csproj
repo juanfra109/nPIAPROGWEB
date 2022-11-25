@@ -8,11 +8,22 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Controllers\HomeController1.cs" />
-    <Compile Remove="Controllers\HomeController2.cs" />
+    <Compile Remove="Views\NewFolder\**" />
+    <Content Remove="Views\NewFolder\**" />
+    <EmbeddedResource Remove="Views\NewFolder\**" />
+    <None Remove="Views\NewFolder\**" />
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Remove="Controllers\HomeController1.cs" />
+    <Compile Remove="Controllers\HomeController2.cs" />
+    <Compile Remove="Dto\Autores.cs" />
+    <Compile Remove="Dto\CategoriasDto.cs" />
+    <Compile Remove="Dto\EditorialesDto.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\Home\Admins.cshtml" />
     <Content Remove="Views\LibroCatalogo\Create.cshtml" />
     <Content Remove="Views\LibroCatalogo\Delete.cshtml" />
     <Content Remove="Views\LibroCatalogo\Edit.cshtml" />

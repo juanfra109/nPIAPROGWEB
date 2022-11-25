@@ -108,9 +108,9 @@ namespace PIA.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, LibroCreateDto LibroNu, Libro libro)
+        public async Task<IActionResult> Edit(int id, Libro libro, LibroUpdateDto Libro)
         {
-            if (id != libro.IdLibro)
+            if (id != Libro.IdLibro)
             {
                 return NotFound();
             }
@@ -120,21 +120,22 @@ namespace PIA.Controllers
                 
                 try
                 {
-                    Libro libronu = new Libro();
-                    libronu.Autor = libro.Autor;
-                    libronu.Categoria = libro.Categoria;
-                    libronu.Editorial = libro.Editorial;
-                    libronu.Nombre = libro.Nombre;
-                    libronu.Precio = libro.Precio;
-                    libronu.Imagen = libro.Imagen;
-                    libronu.Añopublicacion = libro.Añopublicacion;
-                    libronu.Descripcion = libro.Descripcion;
-                    _context.Update(libronu);
+                    Libro libroup = new Libro();
+                    libroup.Autor = Libro.Autor;
+                    libroup.Categoria = Libro.Categoria;
+                    libroup.Editorial = Libro.Editorial;
+                    libroup.Nombre = Libro.Nombre;
+                    libroup.Precio = Libro.Precio;
+                    libroup.Imagen = Libro.Imagen;
+                    libroup.Añopublicacion = Libro.Añopublicacion;
+                    libroup.Descripcion = Libro.Descripcion;
+                    libroup.IdLibro = Libro.IdLibro;
+                    _context.Update(libroup);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!LibroExists(libro.IdLibro))
+                    if (!LibroExists(Libro.IdLibro))
                     {
                         return NotFound();
                     }
@@ -145,10 +146,10 @@ namespace PIA.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["Autor"] = new SelectList(_context.Autores, "IdAutor", "Nombre", libro.Autor);
-            ViewData["Categoria"] = new SelectList(_context.Categorias, "IdCategoria", "Descripción", libro.Categoria);
-            ViewData["Editorial"] = new SelectList(_context.Editoriales, "Ideditorial", "Nombre", libro.Editorial);
-            return View(libro);
+            ViewData["Autor"] = new SelectList(_context.Autores, "IdAutor", "Nombre", Libro.Autor);
+            ViewData["Categoria"] = new SelectList(_context.Categorias, "IdCategoria", "Descripción", Libro.Categoria);
+            ViewData["Editorial"] = new SelectList(_context.Editoriales, "Ideditorial", "Nombre", Libro.Editorial);
+            return View(Libro);
         }
 
         // GET: Libroes/Delete/5

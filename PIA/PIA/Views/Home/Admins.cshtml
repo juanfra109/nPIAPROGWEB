@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewData["Title"] = "Admins";
+}
+
+<h1>Admins</h1>
+
+<h2>Agregar Editoriales</h2>
+<button id="Editorial">Editoriales</button>
+<h2>Agregar Categorias</h2>
+<button></button>
+<h2>Agregar Autores</h2>
+<button></button>
+<h2>Agregar Libro</h2>
+<button></button>
+<h2>Agregar Metodo de pago</h2>
+<button></button>
+
+<script>
+    var link = 'https://localhost:7095';
+    $(document).ready(function(){
+        $('#Editorial').click(function(){
+            Response.redirect(link+'/Editoriales')
+        })
+    })
+</script>
+

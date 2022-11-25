@@ -9,22 +9,23 @@
 
 @foreach (var item in Model) {
             
-            <main>
-                <article>
-                    <h3>@Html.DisplayFor(modelItem => item.Nombre)</h3><hr>
-
+            <div class="card text-dark bg-light mb-3">
+                <article class="header">
+                    <h3 class="header">@Html.DisplayFor(modelItem => item.Nombre)</h3><hr>
                 </article>
-                <aside>
-                    <img class="imagenprod" src="@Html.DisplayFor(modelItem => item.Imagen)" align="right"><br />
+                <div class="card-body">
+                    <main>
+                        <aside>
+                            <img class="imagenprod" src="@Html.DisplayFor(modelItem => item.Imagen)" align="right"><br />
 
-                </aside>
-                <header>
-                    <h5>Precio: $@Html.DisplayFor(modelItem => item.Precio)</h5><br />
-                    <h6>Autor: @Html.DisplayFor(modelItem => item.AutorNavigation.Nombre)</h6><br />
-                </header>
-                <p>@Html.DisplayFor(modelItem => item.Descripcion)</p>
-                <a asp-action="Details" asp-route-id="@item.IdLibro">Details</a>
-                <hr /><br/><br/>
-
-            </main>
+                        </aside>
+                        <header>
+                            <h5>Precio: $@Html.DisplayFor(modelItem => item.Precio)</h5><br />
+                            <h6>Autor: @Html.DisplayFor(modelItem => item.AutorNavigation.Nombre)</h6><br />
+                        </header>
+                        <a asp-action="Details" asp-route-id="@item.IdLibro">Details</a>
+                        <hr /><br/><br/>
+                    </main>
+                </div>
+            </div><br/>
 }
