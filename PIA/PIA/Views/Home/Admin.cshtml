@@ -1,0 +1,52 @@
+﻿
+@{
+    ViewData["Title"] = "Admins";
+}
+
+<h1>Pagina de Admin</h1>
+
+<h2>Agregar Editoriales</h2>
+<button onclick="editoriales()">Editoriales</button>
+<h2>Agregar Categorias</h2>
+<button onclick="categorias()">Categorias</button>
+<h2>Agregar Autores</h2>
+<button onclick="autor()">Autores</button>
+<h2>Agregar Libro</h2>
+<button onclick="libros()">Libros</button>
+<h2>Agregar Metodo de pago</h2>
+<button onclick="Metodpag()">Editoriales</button>
+<h2>Ver Ordenes</h2>
+<button onclick="ordenes()">Ordenes</button>
+<h2>Ver Solicitudes</h2>
+<button onclick="solicitudes()">Solicitudes</button>
+<h2>Ver Sugerencias</h2>
+<button onclick="sugerencias()">Sugerencias</button>
+
+<script>
+    var link = 'https://localhost:7095';
+    $(document).ready;
+    function editoriales(){
+        location.href = link+'/Editoriales';
+    }
+    function categorias() {
+        location.href = link + '/Categorias';
+    }
+    function autor() {
+        location.href = link + '/Autores';
+    }
+    function libros() {
+        location.href = link + '/Libroes';
+    }
+    function Metodpag() {
+        location.href = link + '/Cmetodopags';
+    }
+    function ordenes() {
+        location.href = link + '/Ordens'
+    }
+    function solicitudes() {
+        location.href = link + '/Solicitudes'
+    }
+    function sugerencias() {
+        location.href = link + '/Sugerencias'
+    }
+</script>

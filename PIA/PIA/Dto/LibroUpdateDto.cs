@@ -21,6 +21,6 @@ namespace PIA.Dto
         public decimal Precio { get; set; }
         public int Editorial { get; set; }
         public string Imagen { get; set; } = null!;
-        public int IdLibro { get; set };
+        public int IdLibro { get; set; } 
     }
 }

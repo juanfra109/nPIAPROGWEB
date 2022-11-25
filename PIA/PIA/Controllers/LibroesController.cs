@@ -108,12 +108,9 @@ namespace PIA.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, Libro libro, LibroUpdateDto Libro)
+        public async Task<IActionResult> Edit( LibroUpdateDto Libro)
         {
-            if (id != Libro.IdLibro)
-            {
-                return NotFound();
-            }
+            
 
             if (ModelState.IsValid)
             {
