@@ -47,6 +47,7 @@ namespace PIA.Controllers
         }
 
         // GET: Solicitudes/Create
+        [AllowAnonymous]
         public IActionResult Create()
         {
             return View();

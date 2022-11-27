@@ -31,17 +31,21 @@ h1{
 }
 h2{
   text-align: left;
-  color: gold;
+  color: #bc843d;
 
 }
 .imagen1{
     margin-top: 50px;
   margin-left: 50px;
-  width: 40%
+  width: 40%;
+  padding: 30px;
+  background-color: #960128;
 }
 .imagenprod{
     height: 250px;
     width: 250px;
+    padding: 15px;
+  background-color: #960128;
 }
 .espacio{
     width: 6000%;
@@ -53,4 +57,31 @@ a{
     background-color: white;
     color: black;
     text-align: center;
+}
+.navbar-custom{
+  background-color: #7F34FE;;
+}
+.secadm {
+    background-color: #922f45;
+    border: 3px solid #A33593;
+    text-align: center;
+    margin: 20px auto;
+    width: 500px;
+    
+}
+.tablacarr{
+    background-color: #F6E7C1;
+
+}
+.misord{
+    background-color: #c2f6f5;
+}
+.iniciosec{
+    margin: 0 auto;
+}
+.clasea{
+    background-color: white;
+}
+.tablasadmin{
+    background-color: #E3F4DC;
 }

@@ -5,22 +5,45 @@
 
 <h1>Pagina de Admin</h1>
 
-<h2>Agregar Editoriales</h2>
-<button onclick="editoriales()">Editoriales</button>
-<h2>Agregar Categorias</h2>
-<button onclick="categorias()">Categorias</button>
-<h2>Agregar Autores</h2>
-<button onclick="autor()">Autores</button>
-<h2>Agregar Libro</h2>
-<button onclick="libros()">Libros</button>
-<h2>Agregar Metodo de pago</h2>
-<button onclick="Metodpag()">Editoriales</button>
-<h2>Ver Ordenes</h2>
-<button onclick="ordenes()">Ordenes</button>
-<h2>Ver Solicitudes</h2>
-<button onclick="solicitudes()">Solicitudes</button>
-<h2>Ver Sugerencias</h2>
-<button onclick="sugerencias()">Sugerencias</button>
+<main>
+    <article class="secadm">
+        <h2>Ver todos los Usuarios</h2>
+        <button onclick="usuarios()">usuarios</button>
+    </article>
+    <article class="secadm">
+        <h2>Agregar Editoriales</h2>
+        <button onclick="editoriales()">Editoriales</button>
+    </article>
+    <article class="secadm">
+        <h2>Agregar Categorias</h2>
+        <button onclick="categorias()">Categorias</button>
+    </article>
+    <article class="secadm">
+        <h2>Agregar Autores</h2>
+        <button onclick="autor()">Autores</button>
+    </article>
+    <article class="secadm">
+        <h2>Agregar Libro</h2>
+        <button onclick="libros()">Libros</button>
+    </article>
+    <article class="secadm">
+        <h2>Agregar Metodo de pago</h2>
+        <button onclick="Metodpag()">Editoriales</button>
+    </article>
+    <article class="secadm">
+        <h2>Ver Ordenes</h2>
+        <button onclick="ordenes()">Ordenes</button>
+    </article>
+    <article class="secadm">
+        <h2>Ver Solicitudes</h2>
+        <button onclick="solicitudes()">Solicitudes</button>
+    </article>
+    <article class="secadm">
+        <h2>Ver Sugerencias</h2>
+        <button onclick="sugerencias()">Sugerencias</button>
+    </article>
+</main>
+
 
 <script>
     var link = 'https://localhost:7095';
@@ -41,12 +64,15 @@
         location.href = link + '/Cmetodopags';
     }
     function ordenes() {
-        location.href = link + '/Ordens'
+        location.href = link + '/Ordendetalles'
     }
     function solicitudes() {
         location.href = link + '/Solicitudes'
     }
     function sugerencias() {
         location.href = link + '/Sugerencias'
+    }
+    function usuarios() {
+        location.href = link + '/ApplicationUsers'
     }
 </script>

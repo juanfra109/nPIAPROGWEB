@@ -48,6 +48,8 @@ namespace PIA.Controllers
         }
 
         // GET: Sugerencias/Create
+        [AllowAnonymous]
+
         public IActionResult Create()
         {
             return View();

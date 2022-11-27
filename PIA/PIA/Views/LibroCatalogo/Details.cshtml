@@ -24,7 +24,12 @@
     </header>
     <p> @Html.DisplayFor(model => model.Descripcion)</p>
     <br />
+    <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Cantidad</span>
+            <input type="number" class="form-control cantidad" data-id=@Model.IdLibro placeholder="0" >
+            <button class="productoag" data-id=@Model.IdLibro><i class="fa-solid fa-cart-shopping"></i>Agregar a Carrito</button>
 
+    </div>
 </main>
 <div>
     <a asp-action="Index">Regreso a Catalogo</a>
