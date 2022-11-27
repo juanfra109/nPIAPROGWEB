@@ -24,8 +24,20 @@
                             <h6>Autor: @Html.DisplayFor(modelItem => item.AutorNavigation.Nombre)</h6><br />
                         </header>
                         <a asp-action="Details" asp-route-id="@item.IdLibro">Details</a>
-                        <hr /><br/><br/>
+                        <hr />
+                        <div class="input-group mb-3">
+                          <span class="input-group-text" id="basic-addon1">Cantidad</span>
+                          <input type="number" class="form-control cantidad" data-id=@item.IdLibro placeholder="0" >
+                    <button class="productoag" data-id=@item.IdLibro><i class="fa-solid fa-cart-shopping"></i>Agregar a Carrito</button>
+
+                        </div>
+
+                        <br/><br/>
                     </main>
                 </div>
             </div><br/>
+}
+
+@section Scripts {
+    <script src="~/js/Index.LibroCatalogo.js" asp-append-version="true"></script>
 }

@@ -1,4 +1,25 @@
-﻿// Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿$(document).ready(function () {
+    $(".productoag").click(e => {
+        const libroId = parseInt($(e.currentTarget).attr("data-id"));
+        const cantidad = parseInt($(`.cantidad[data-id=${libroId}]`).val());
 
-// Write your JavaScript code.
+        const informacion = {
+            libroId: libroId,
+            cantidad: cantidad
+        };
+
+        $.ajax({
+            url: "/Carritoes/AgregarLibroAlCarrito",
+            type: "POST",
+            data: informacion,
+            success: function (msg) {
+                alert(msg);
+            },
+            error: function (err) {
+                console.error(err);
+                alert("Ocurrio un error innesperado!");
+            },
+            dataType: "text"
+        });
+    });
+});

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -9,19 +10,25 @@ using PIA.Models.dbModels;
 
 namespace PIA.Controllers
 {
+
     public class OrdensController : Controller
     {
         private readonly LibreriaProyectoContext _context;
+        private readonly SignInManager<ApplicationUser> _signInManager;
 
-        public OrdensController(LibreriaProyectoContext context)
+        public OrdensController(LibreriaProyectoContext context, SignInManager<ApplicationUser> signInManager)
         {
             _context = context;
+            _signInManager = signInManager;
         }
 
         // GET: Ordens
         public async Task<IActionResult> Index()
         {
-            var libreriaProyectoContext = _context.Ordens.Include(o => o.IdmetodopagNavigation).Include(o => o.IdusuarioNavigation);
+            var libreriaProyectoContext = _context.Ordens
+                .Include(o => o.IdmetodopagNavigation).Include(o => o.IdusuarioNavigation)
+                .Where(c => _signInManager.IsSignedIn(User) && c.IdusuarioNavigation.UserName == User.Identity.Name);
+
             return View(await libreriaProyectoContext.ToListAsync());
         }
 
@@ -163,6 +170,60 @@ namespace PIA.Controllers
             
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> OrdenCreadaConExito(int id)
+        {
+            var usuarioFirmado = await _context.Users.FirstOrDefaultAsync(u => u.UserName == User.Identity.Name);
+            if (usuarioFirmado == null) return Unauthorized();
+
+            var orden = await _context.Ordens
+                .Include(o => o.Ordendetalles).ThenInclude(d => d.IdlibrosNavigation)
+                .FirstOrDefaultAsync(o => o.Idorden == id && o.Idusuario == usuarioFirmado.Id);
+
+            if (orden == null) return NotFound();
+
+            return View(orden);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> CrearOrden(int metodoPago)
+        {
+            var usuarioFirmado = await _context.Users.FirstOrDefaultAsync(u => u.UserName == User.Identity.Name);
+            if (usuarioFirmado == null) return Unauthorized();
+
+            var carrito = _context.Carritos.Where(c => c.IdUsuario == usuarioFirmado.Id);
+
+            var orden = new Orden
+            {
+                Idusuario = usuarioFirmado.Id,
+                Idmetodopag = metodoPago,
+                Fecha = DateTime.Now
+            };
+
+            foreach (var item in carrito)
+            {
+                var detalle = new Ordendetalle
+                {
+                    Idlibros = item.IdLibro,
+                    Cantidad = item.Cantidad,
+                    Precio = item.Total
+                };
+
+                orden.Ordendetalles.Add(detalle);
+            }
+
+            orden.Total = orden.Ordendetalles.Sum(d => d.Precio);
+
+            var carritoPorEliminar = _context.Carritos.Where(c => c.IdUsuario == usuarioFirmado.Id);
+
+            _context.Carritos.RemoveRange(carritoPorEliminar);
+
+            await _context.Ordens.AddAsync(orden);
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(OrdenCreadaConExito), new { id = orden.Idorden });
         }
 
         private bool OrdenExists(int id)

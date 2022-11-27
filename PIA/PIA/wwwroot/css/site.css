@@ -46,3 +46,11 @@ h2{
 .espacio{
     width: 6000%;
 }
+body{
+    background-color: #efc7f9;
+}
+a{
+    background-color: white;
+    color: black;
+    text-align: center;
+}

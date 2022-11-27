@@ -8,413 +8,413 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PIA
 build_property.RootNamespace = PIA
-build_property.ProjectDir = C:\Users\juanf\OneDrive\Desktop\piaprogweb\nPIAPROGWEB\PIA\PIA\
+build_property.ProjectDir = C:\Users\juanf\OneDrive\Desktop\carpetapiaproweb\nPIAPROGWEB\PIA\PIA\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\juanf\OneDrive\Desktop\piaprogweb\nPIAPROGWEB\PIA\PIA
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\Users\juanf\OneDrive\Desktop\carpetapiaproweb\nPIAPROGWEB\PIA\PIA
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/AccessDenied.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWxDaGFuZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/ExternalLogin.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/ExternalLogin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxFeHRlcm5hbExvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/Lockout.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/Lockout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2Nrb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/Login.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/LoginWith2fa.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/LoginWith2fa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbldpdGgyZmEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbldpdGhSZWNvdmVyeUNvZGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/Logout.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcQ2hhbmdlUGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRGVsZXRlUGVyc29uYWxEYXRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRGlzYWJsZTJmYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRG93bmxvYWRQZXJzb25hbERhdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/Manage/Email.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/Manage/Email.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW5hYmxlQXV0aGVudGljYXRvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRXh0ZXJuYWxMb2dpbnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcR2VuZXJhdGVSZWNvdmVyeUNvZGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/Manage/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcUGVyc29uYWxEYXRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcUmVzZXRBdXRoZW50aWNhdG9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcU2V0UGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcU2hvd1JlY292ZXJ5Q29kZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcVHdvRmFjdG9yQXV0aGVudGljYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1N0YXR1c01lc3NhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3RlckNvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNlbmRFbWFpbENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/ResetPassword.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/ResetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkQ29uZmlybWF0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/_StatusMessage.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/_StatusMessage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfU3RhdHVzTWVzc2FnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Error.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Autores/Create.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Autores/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0b3Jlc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Autores/Delete.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Autores/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0b3Jlc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Autores/Details.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Autores/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0b3Jlc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Autores/Edit.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Autores/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0b3Jlc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Autores/Index.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Autores/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0b3Jlc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Carritoes/Create.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Carritoes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycml0b2VzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Carritoes/Delete.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Carritoes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycml0b2VzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Carritoes/Details.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Carritoes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycml0b2VzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Carritoes/Edit.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Carritoes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycml0b2VzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Carritoes/Index.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Carritoes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycml0b2VzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Categorias/Create.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Categorias/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Categorias/Delete.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Categorias/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Categorias/Details.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Categorias/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Categorias/Edit.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Categorias/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Categorias/Index.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Categorias/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Cmetodopags/Create.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Cmetodopags/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ21ldG9kb3BhZ3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Cmetodopags/Delete.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Cmetodopags/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ21ldG9kb3BhZ3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Cmetodopags/Edit.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Cmetodopags/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ21ldG9kb3BhZ3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Cmetodopags/Index.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Cmetodopags/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ21ldG9kb3BhZ3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Editoriales/Create.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Editoriales/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRpdG9yaWFsZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Editoriales/Delete.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Editoriales/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRpdG9yaWFsZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Editoriales/Details.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Editoriales/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRpdG9yaWFsZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Editoriales/Edit.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Editoriales/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRpdG9yaWFsZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Editoriales/Index.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Editoriales/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRpdG9yaWFsZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Home/Admin.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Home/Admin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZG1pbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Home/Details.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Home/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Home/Index.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Home/Privacy.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/LibroCatalogo/Details.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/LibroCatalogo/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicm9DYXRhbG9nb1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/LibroCatalogo/Index.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/LibroCatalogo/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicm9DYXRhbG9nb1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Libroes/Create.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Libroes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicm9lc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Libroes/Delete.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Libroes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicm9lc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Libroes/Details.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Libroes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicm9lc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Libroes/Edit.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Libroes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicm9lc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Libroes/Index.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Libroes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicm9lc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Ordendetalles/Create.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Ordendetalles/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZW5kZXRhbGxlc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Ordendetalles/Delete.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Ordendetalles/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZW5kZXRhbGxlc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Ordendetalles/Details.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Ordendetalles/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZW5kZXRhbGxlc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Ordendetalles/Edit.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Ordendetalles/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZW5kZXRhbGxlc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Ordendetalles/Index.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Ordendetalles/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZW5kZXRhbGxlc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Ordens/Create.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Ordens/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZW5zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Ordens/Delete.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Ordens/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZW5zXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Ordens/Details.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Ordens/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZW5zXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Ordens/Edit.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Ordens/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZW5zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Ordens/Index.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Ordens/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZW5zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Shared/Error.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Solicitudes/Create.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Solicitudes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29saWNpdHVkZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Solicitudes/Delete.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Solicitudes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29saWNpdHVkZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Solicitudes/Details.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Solicitudes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29saWNpdHVkZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Solicitudes/Edit.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Solicitudes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29saWNpdHVkZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Solicitudes/Index.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Solicitudes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29saWNpdHVkZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Sugerencias/Create.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Sugerencias/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VnZXJlbmNpYXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Sugerencias/Delete.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Sugerencias/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VnZXJlbmNpYXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Sugerencias/Details.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Sugerencias/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VnZXJlbmNpYXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Sugerencias/Edit.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Sugerencias/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VnZXJlbmNpYXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Sugerencias/Index.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Sugerencias/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VnZXJlbmNpYXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/_ViewImports.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/_ViewStart.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanf/OneDrive/Desktop/piaprogweb/nPIAPROGWEB/PIA/PIA/Views/Shared/_Layout.cshtml]
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-zip98s8a7k

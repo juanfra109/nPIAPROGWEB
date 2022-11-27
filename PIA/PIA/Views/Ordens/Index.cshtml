@@ -6,23 +6,20 @@
 
 <h1>Index</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Total)
+                # Orden
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Fecha)
+                Fecha
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.IdmetodopagNavigation)
+                Metodo Pago
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.IdusuarioNavigation)
+                Total
             </th>
             <th></th>
         </tr>
@@ -31,32 +28,21 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.Total)
+                @item.Idorden
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Fecha)
+                @item.Fecha.ToString("g")
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.IdmetodopagNavigation.Idmetpag)
+                @item.IdmetodopagNavigation.Descripcion
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.IdusuarioNavigation.Id)
+                @item.Total.ToString("C")
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Idorden">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Idorden">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Idorden">Delete</a>
+                <a asp-action="Details" asp-route-id="@item.Idorden">Imprimir</a>
             </td>
         </tr>
 }
     </tbody>
 </table>
-<button onclick="atras()">Volver a pagina Admins</button>
-
-<script>
-    var link = 'https://localhost:7095';
-    $(document).ready;
-    function atras() {
-        location.href = link + '/Home/Admin';
-    }
-</script>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\juanf\\OneDrive\\Desktop\\piaprogweb\\nPIAPROGWEB\\PIA\\PIA\\PIA.csproj": {}
+    "C:\\Users\\juanf\\OneDrive\\Desktop\\carpetapiaproweb\\nPIAPROGWEB\\PIA\\PIA\\PIA.csproj": {}
   },
   "projects": {
-    "C:\\Users\\juanf\\OneDrive\\Desktop\\piaprogweb\\nPIAPROGWEB\\PIA\\PIA\\PIA.csproj": {
+    "C:\\Users\\juanf\\OneDrive\\Desktop\\carpetapiaproweb\\nPIAPROGWEB\\PIA\\PIA\\PIA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\juanf\\OneDrive\\Desktop\\piaprogweb\\nPIAPROGWEB\\PIA\\PIA\\PIA.csproj",
+        "projectUniqueName": "C:\\Users\\juanf\\OneDrive\\Desktop\\carpetapiaproweb\\nPIAPROGWEB\\PIA\\PIA\\PIA.csproj",
         "projectName": "PIA",
-        "projectPath": "C:\\Users\\juanf\\OneDrive\\Desktop\\piaprogweb\\nPIAPROGWEB\\PIA\\PIA\\PIA.csproj",
+        "projectPath": "C:\\Users\\juanf\\OneDrive\\Desktop\\carpetapiaproweb\\nPIAPROGWEB\\PIA\\PIA\\PIA.csproj",
         "packagesPath": "C:\\Users\\juanf\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\juanf\\OneDrive\\Desktop\\piaprogweb\\nPIAPROGWEB\\PIA\\PIA\\obj\\",
+        "outputPath": "C:\\Users\\juanf\\OneDrive\\Desktop\\carpetapiaproweb\\nPIAPROGWEB\\PIA\\PIA\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\juanf\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -51,6 +51,10 @@
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
               "version": "[6.0.10, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[6.0.11, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",

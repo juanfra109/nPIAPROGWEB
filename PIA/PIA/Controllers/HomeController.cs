@@ -1,9 +1,13 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using PIA.Models;
 using System.Diagnostics;
+using Microsoft.AspNetCore.Authorization;
+
 
 namespace PIA.Controllers
 {
+    [Authorize(Roles = "Admin")]
+
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -13,11 +17,12 @@ namespace PIA.Controllers
             _logger = logger;
         }
 
+        [AllowAnonymous]
         public IActionResult Index()
         {
             return View();
         }
-
+        [AllowAnonymous]
         public IActionResult Privacy()
         {
             return View();

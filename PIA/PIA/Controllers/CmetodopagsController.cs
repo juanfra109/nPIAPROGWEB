@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -9,6 +10,8 @@ using PIA.Models.dbModels;
 
 namespace PIA.Controllers
 {
+    [Authorize(Roles = "Admin")]
+
     public class CmetodopagsController : Controller
     {
         private readonly LibreriaProyectoContext _context;

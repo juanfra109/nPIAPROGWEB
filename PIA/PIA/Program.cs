@@ -15,10 +15,10 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole<int>>(options => opti
     .AddEntityFrameworkStores<LibreriaProyectoContext>()
     .AddDefaultTokenProviders();
 builder.Services.AddControllersWithViews();
-builder.Services.AddRazorPages();
+builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
 /*builder.Services.ConfigureApplicationCookie(option =>
 {
-    option.LoginPath = "/Account/Identity/Login";
+    option.LoginPath = "Identity/Account/Login";
     option.AccessDeniedPath = "/Account/Identity/AccessDenied";
 });*/
 

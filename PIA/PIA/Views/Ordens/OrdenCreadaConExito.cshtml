@@ -1,0 +1,39 @@
+﻿@model PIA.Models.dbModels.Orden
+
+@{
+    ViewData["Title"] = "Orden creada";
+}
+
+<h1>Orden creada!</h1>
+
+<p>La orden <strong>#@Model.Idorden</strong> ha sido creada con exito</p>
+
+<a asp-controller="Ordens" asp-action="Index"><button class="btn btn-primary">Ver mis ordenes</button></a>
+
+<h2>Detalles</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Producto</th>
+            <th>Cantidad</th>
+            <th>Total</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Ordendetalles)
+        {
+            <tr>
+                <td>@item.IdlibrosNavigation.Nombre</td>
+                <td>@item.Cantidad</td>
+                <td>@item.Precio.ToString("C")</td>
+            </tr>
+        }
+    </tbody>
+    <tfoot>
+        <tr>
+            <th>Total</th>
+            <th colspan="2">@Model.Total.ToString("C")</th>
+        </tr>
+    </tfoot>
+</table>

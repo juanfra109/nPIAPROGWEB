@@ -13,17 +13,19 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Cantidad)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Precio)
+                @Html.DisplayNameFor(model => model.IdordenNavigation)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.IdlibrosNavigation)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.IdordenNavigation)
+                @Html.DisplayNameFor(model => model.Cantidad)
             </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Precio)
+            </th>
+            
+            
             <th></th>
         </tr>
     </thead>
@@ -31,19 +33,20 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.Cantidad)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Precio)
+                @Html.DisplayFor(modelItem => item.IdordenNavigation.Idorden)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.IdlibrosNavigation.IdLibro)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.IdordenNavigation.Idorden)
+                @Html.DisplayFor(modelItem => item.Cantidad)
             </td>
             <td>
-                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.DisplayFor(modelItem => item.Precio)
+            </td>
+            
+            
+            <td>
                 @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
                 @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
             </td>
@@ -51,3 +54,13 @@
 }
     </tbody>
 </table>
+<button onclick="atras()">Volver a pagina Admins</button>
+
+<script>
+    var link = 'https://localhost:7095';
+    $(document).ready;
+    function atras() {
+        location.href = link + '/Home/Admin';
+    }
+</script>
+
