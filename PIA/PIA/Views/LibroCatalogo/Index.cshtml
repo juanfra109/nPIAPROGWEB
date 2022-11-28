@@ -1,4 +1,7 @@
-﻿@model IEnumerable<PIA.Models.dbModels.Libro>
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+
+@model IEnumerable<PIA.Models.dbModels.Libro>
 
 @{
     ViewData["Title"] = "Catalogo";
@@ -23,15 +26,19 @@
                             <h5>Precio: $@Html.DisplayFor(modelItem => item.Precio)</h5><br />
                             <h6>Autor: @Html.DisplayFor(modelItem => item.AutorNavigation.Nombre)</h6><br />
                         </header>
-                        <a asp-action="Details" asp-route-id="@item.IdLibro">Details</a>
+                        <a asp-action="Details" asp-route-id="@item.IdLibro"><button class="btn btn-primary">Details</button></a>
                         <hr />
-                        <div class="input-group mb-3">
-                          <span class="input-group-text" id="basic-addon1">Cantidad</span>
-                          <input type="number" class="form-control cantidad" data-id=@item.IdLibro placeholder="0" >
-                    <button class="productoag" data-id=@item.IdLibro><i class="fa-solid fa-cart-shopping"></i>Agregar a Carrito</button>
-
-                        </div>
-
+                @if (SignInManager.IsSignedIn(User))
+                {
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">Cantidad</span>
+                        <input type="number" class="form-control cantidad" min="1" data-id=@item.IdLibro placeholder="1" value="1" >
+                        <button class="productoag" data-id=@item.IdLibro><i class="fa-solid fa-cart-shopping"></i>Agregar a Carrito</button>
+                    </div>
+                }
+                else{
+                    <strong>Ingrese a su cuenta para agregar algo a su carrito</strong>
+                }
                         <br/><br/>
                     </main>
                 </div>

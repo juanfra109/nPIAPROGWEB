@@ -1,0 +1,54 @@
+﻿@model IEnumerable<PIA.Models.dbModels.Orden>
+
+@{
+    ViewData["Title"] = "Administrador de ordenes";
+}
+
+<h1>Administrador de ordenes</h1>
+
+<table class="table misord">
+    <thead>
+        <tr>
+            <th>
+                # Orden
+            </th>
+            <th>
+                Cliente
+            </th>
+            <th>
+                Fecha
+            </th>
+            <th>
+                Metodo Pago
+            </th>
+            <th>
+                Total
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @item.Idorden
+            </td>
+            <td>
+                @item.IdusuarioNavigation.UserName
+            </td>
+            <td>
+                @item.Fecha.ToString("g")
+            </td>
+            <td>
+                @item.IdmetodopagNavigation.Descripcion
+            </td>
+            <td>
+                @item.Total.ToString("C")
+            </td>
+            <td>
+                    <a asp-action="Details" asp-route-id="@item.Idorden"><button class="btn btn-dark">Imprimir</button></a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

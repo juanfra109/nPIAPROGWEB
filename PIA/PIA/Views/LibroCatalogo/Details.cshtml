@@ -1,4 +1,7 @@
-﻿@model PIA.Models.dbModels.Libro
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+
+@model PIA.Models.dbModels.Libro
 
 @{
     ViewData["Title"] = "Details";
@@ -6,7 +9,7 @@
 
 <h1>Detalle  @Html.DisplayFor(model => model.Nombre)</h1>
 
-<main>
+<main class="productodetalle">
     <article>
         <h3> @Html.DisplayFor(model => model.Nombre)</h3><hr>
 
@@ -24,13 +27,20 @@
     </header>
     <p> @Html.DisplayFor(model => model.Descripcion)</p>
     <br />
-    <div class="input-group mb-3">
+    @if (SignInManager.IsSignedIn(User))
+    {
+        <div class="input-group mb-3">
             <span class="input-group-text" id="basic-addon1">Cantidad</span>
-            <input type="number" class="form-control cantidad" data-id=@Model.IdLibro placeholder="0" >
+            <input type="number" class="form-control cantidad" min="1" data-id=@Model.IdLibro placeholder="1">
             <button class="productoag" data-id=@Model.IdLibro><i class="fa-solid fa-cart-shopping"></i>Agregar a Carrito</button>
-
-    </div>
+        </div>
+    }
+    else
+    {
+        <strong>Ingrese a su cuenta para agregar algo a su carrito</strong>
+    }
 </main>
 <div>
-    <a asp-action="Index">Regreso a Catalogo</a>
+    <br />
+    <a asp-action="Index"><button class="btn btn-dark">Regreso a Catalogo</button></a>
 </div>

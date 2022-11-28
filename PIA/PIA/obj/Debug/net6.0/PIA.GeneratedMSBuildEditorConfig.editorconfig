@@ -175,12 +175,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/ApplicationUsers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwbGljYXRpb25Vc2Vyc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/ApplicationUsers/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwbGljYXRpb25Vc2Vyc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/ApplicationUsers/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwbGljYXRpb25Vc2Vyc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/ApplicationUsers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwbGljYXRpb25Vc2Vyc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/ApplicationUsers/Index.cshtml]
@@ -349,6 +357,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Ordendetalles/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZW5kZXRhbGxlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Ordens/Admin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZW5zXEFkbWluLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/juanf/OneDrive/Desktop/carpetapiaproweb/nPIAPROGWEB/PIA/PIA/Views/Ordens/Create.cshtml]

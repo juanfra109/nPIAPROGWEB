@@ -5,7 +5,6 @@
 }
 
 <h1>Usuarios</h1>
-<strong>RECUERDE NO ELIMINAR USUARIOS A MENOS DE COMETER UNA INFRACCIÓN</strong>
 <table class="table tablasadmin">
     <thead>
         <tr>
@@ -77,8 +76,7 @@
                 @Html.DisplayFor(modelItem => item.EmailConfirmed)
             </td>
             <td>
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    <a asp-action="Details" asp-route-id="@item.Id"><button class="btn btn-secondary">Detalles</button></a>
             </td>
         </tr>
 }

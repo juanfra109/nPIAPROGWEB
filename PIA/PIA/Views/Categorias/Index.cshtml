@@ -4,10 +4,10 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Categorias</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <button onclick="crear()">Crear Nuevo</button>
 </p>
 <table class="table tablasadmin">
     <thead>
@@ -25,9 +25,9 @@
                 @Html.DisplayFor(modelItem => item.Descripción)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.IdCategoria">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.IdCategoria">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.IdCategoria">Delete</a>
+                    <a asp-action="Edit" asp-route-id="@item.IdCategoria"><button class="btn btn-success">Editar</button></a> |
+                    <a asp-action="Details" asp-route-id="@item.IdCategoria"><button class="btn btn-info">Detalles</button></a> |
+                    <a asp-action="Delete" asp-route-id="@item.IdCategoria"><button class="btn btn-danger">Eliminar</button></a>
             </td>
         </tr>
 }
@@ -40,5 +40,8 @@
     $(document).ready;
     function atras(){
         location.href = link+'/Home/Admin';
+    }
+    function crear() {
+        location.href = link + '/Categorias/Create';
     }
 </script>

@@ -4,10 +4,10 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Libros</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+<button onclick="crear()">Crear Nuevo</button>
 </p>
 <table class="table tablasadmin">
     <thead>
@@ -17,9 +17,6 @@
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Añopublicacion)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Descripcion)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Precio)
@@ -49,9 +46,6 @@
                 @Html.DisplayFor(modelItem => item.Añopublicacion)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Descripcion)
-            </td>
-            <td>
                 @Html.DisplayFor(modelItem => item.Precio)
             </td>
             <td class="espacio">
@@ -67,9 +61,9 @@
                 @Html.DisplayFor(modelItem => item.EditorialNavigation.Nombre)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.IdLibro">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.IdLibro">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.IdLibro">Delete</a>
+                    <a asp-action="Edit" asp-route-id="@item.IdLibro"><button class="btn btn-success">Editar</button></a> 
+                    <a asp-action="Details" asp-route-id="@item.IdLibro"><button class="btn btn-info">Detalles</button></a> 
+                    <a asp-action="Delete" asp-route-id="@item.IdLibro"><button class="btn btn-danger">Eliminar</button></a>
             </td>
         </tr>
 }
@@ -82,5 +76,6 @@
     $(document).ready;
     function atras(){
         location.href = link+'/Home/Admin';
+    }  function crear() {      location.href = link + '/Libroes/Create';
     }
 </script>

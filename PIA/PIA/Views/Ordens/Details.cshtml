@@ -6,11 +6,12 @@
 
 <html>
     <head>
-        <title>Ordne #@Model.Idorden</title>
+        <title>Orden #@Model.Idorden</title>
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     </head>
     <body>
-        <h1 class="text-center"></h1>
+        <h1 class="text-center">Orden #@Model.Idorden</h1>
+        <p>Fecha: @Model.Fecha.ToString("g")</p>
         <br/><br/>
     <table class="table tablasadmin">
             <thead>

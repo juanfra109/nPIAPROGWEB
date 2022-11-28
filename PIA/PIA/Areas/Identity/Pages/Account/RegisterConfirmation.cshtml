@@ -8,10 +8,15 @@
 @{
     if (@Model.DisplayConfirmAccountLink)
     {
-<p>
-    This app does not currently have a real email sender registered, see <a href="https://aka.ms/aspaccountconf">these docs</a> for how to configure a real email sender.
-    Normally this would be emailed: <a id="confirm-link" href="@Model.EmailConfirmationUrl">Click here to confirm your account</a>
-</p>
+        <br/>
+        <p class="textocentr">
+            <a id="confirm-link" href="@Model.EmailConfirmationUrl">Haga click en este texto para confirmar su cuenta</a>
+        </p>
+        <div class="imgcentrcon">
+
+            <img src="https://rickesdigital.com/wp-content/uploads/2020/08/confirm-1174801_1280-1024x1024.png" class="imgconfirm">
+        </div>
+
     }
     else
     {

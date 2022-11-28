@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -32,6 +33,17 @@ namespace PIA.Controllers
             return View(await libreriaProyectoContext.ToListAsync());
         }
 
+        // GET: Ordens/Admin
+        [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> Admin()
+        {
+            var libreriaProyectoContext = _context.Ordens
+                .Include(o => o.IdmetodopagNavigation)
+                .Include(o => o.IdusuarioNavigation);
+
+            return View(await libreriaProyectoContext.ToListAsync());
+        }
+
         // GET: Ordens/Details/5
         public async Task<IActionResult> Details(int? id)
         {
@@ -43,6 +55,7 @@ namespace PIA.Controllers
             var orden = await _context.Ordens
                 .Include(o => o.IdmetodopagNavigation)
                 .Include(o => o.IdusuarioNavigation)
+                .Include(o => o.Ordendetalles).ThenInclude(d => d.IdlibrosNavigation)
                 .FirstOrDefaultAsync(m => m.Idorden == id);
             if (orden == null)
             {
@@ -194,6 +207,8 @@ namespace PIA.Controllers
             if (usuarioFirmado == null) return Unauthorized();
 
             var carrito = _context.Carritos.Where(c => c.IdUsuario == usuarioFirmado.Id);
+
+            if (!carrito.Any()) return Conflict("El carrito no debe estar vacio.");
 
             var orden = new Orden
             {
