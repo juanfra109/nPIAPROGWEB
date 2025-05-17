@@ -1,0 +1,129 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Juan Francisco\\source\\repos\\nPIAPROGWEB\\PIA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|c:\\users\\juan francisco\\source\\repos\\npiaprogweb\\pia\\pia\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|solutionrelative:pia\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|c:\\users\\juan francisco\\source\\repos\\npiaprogweb\\pia\\pia\\views\\sugerencias\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|solutionrelative:pia\\views\\sugerencias\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|c:\\users\\juan francisco\\source\\repos\\npiaprogweb\\pia\\pia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|solutionrelative:pia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|c:\\users\\juan francisco\\source\\repos\\npiaprogweb\\pia\\pia\\views\\solicitudes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|solutionrelative:pia\\views\\solicitudes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|c:\\users\\juan francisco\\source\\repos\\npiaprogweb\\pia\\pia\\views\\home\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|solutionrelative:pia\\views\\home\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 267,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Francisco\\source\\repos\\nPIAPROGWEB\\PIA\\PIA\\Program.cs",
+              "RelativeDocumentMoniker": "PIA\\Program.cs",
+              "ToolTip": "C:\\Users\\Juan Francisco\\source\\repos\\nPIAPROGWEB\\PIA\\PIA\\Program.cs",
+              "RelativeToolTip": "PIA\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T11:15:51.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Juan Francisco\\source\\repos\\nPIAPROGWEB\\PIA\\PIA\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "PIA\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Juan Francisco\\source\\repos\\nPIAPROGWEB\\PIA\\PIA\\Views\\Home\\Index.cshtml*",
+              "RelativeToolTip": "PIA\\Views\\Home\\Index.cshtml*",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T09:54:51.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Juan Francisco\\source\\repos\\nPIAPROGWEB\\PIA\\PIA\\Views\\Sugerencias\\Create.cshtml",
+              "RelativeDocumentMoniker": "PIA\\Views\\Sugerencias\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Juan Francisco\\source\\repos\\nPIAPROGWEB\\PIA\\PIA\\Views\\Sugerencias\\Create.cshtml",
+              "RelativeToolTip": "PIA\\Views\\Sugerencias\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T09:51:56.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Juan Francisco\\source\\repos\\nPIAPROGWEB\\PIA\\PIA\\Views\\Solicitudes\\Index.cshtml",
+              "RelativeDocumentMoniker": "PIA\\Views\\Solicitudes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Juan Francisco\\source\\repos\\nPIAPROGWEB\\PIA\\PIA\\Views\\Solicitudes\\Index.cshtml",
+              "RelativeToolTip": "PIA\\Views\\Solicitudes\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T09:51:18.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Admin.cshtml",
+              "DocumentMoniker": "C:\\Users\\Juan Francisco\\source\\repos\\nPIAPROGWEB\\PIA\\PIA\\Views\\Home\\Admin.cshtml",
+              "RelativeDocumentMoniker": "PIA\\Views\\Home\\Admin.cshtml",
+              "ToolTip": "C:\\Users\\Juan Francisco\\source\\repos\\nPIAPROGWEB\\PIA\\PIA\\Views\\Home\\Admin.cshtml",
+              "RelativeToolTip": "PIA\\Views\\Home\\Admin.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-05T04:58:04.05Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

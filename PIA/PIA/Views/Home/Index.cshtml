@@ -1,4 +1,7 @@
-﻿@{
+﻿@model PIA.Models.dbModels.Sugerencia
+
+
+@{
     ViewData["Title"] = "Home Page";
 }
     <header>
@@ -21,6 +24,23 @@
         <a href="https://www.facebook.com/profile.php?id=100087913547140&mibextid=LQQJ4d"><p>&nbsp Librería Rai</p><br /></a><br />
         <a href="https://instagram.com/libreria_rai?igshid=YmMyMTA2M2Y="><img class="redes" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" /></a><br />
         <a href="https://instagram.com/libreria_rai?igshid=YmMyMTA2M2Y="><p>&nbsp libreria_rai</p></a><br />
+    <div class="row">
+        <div class="col-md-4 iniciosec">
+            <form asp-action="Create" asp-controller="Sugerencias">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="Descripcion" class="control-label"></label>
+                    <input asp-for="Descripcion" class="form-control" />
+                    <span asp-validation-for="Descripcion" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <input type="submit" value="Create" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+
     </footer>
 
     <div align="right">
