@@ -1,12 +1,6 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\PIA",
-    "\\PIA\\PIA",
-    "\\PIA\\PIA\\Models",
-    "\\PIA\\PIA\\Models\\dbModels",
-    "\\PIA\\PIA\\Properties"
+    ""
   ],
-  "SelectedNode": "\\PIA\\PIA\\Models\\dbModels\\LibreriaProyectoContext.cs",
   "PreviewInSolutionExplorer": false
 }

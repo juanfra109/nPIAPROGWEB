@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PIA")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+24b47236b85ae17ec02754e53812019155791dcc")]
 [assembly: System.Reflection.AssemblyProductAttribute("PIA")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PIA")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
