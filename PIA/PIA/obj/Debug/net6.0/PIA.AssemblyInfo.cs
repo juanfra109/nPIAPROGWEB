@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PIA")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6451bd6465190c681ced3c2bf020581887ba5a39")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61f1499594aa84c9ff48e924258481249a725931")]
 [assembly: System.Reflection.AssemblyProductAttribute("PIA")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PIA")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
