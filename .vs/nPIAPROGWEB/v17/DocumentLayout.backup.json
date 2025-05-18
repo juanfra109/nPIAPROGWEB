@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\USUARIO\\Desktop\\nPIAPROGWEB\\",
+  "WorkspaceRootPath": "C:\\Users\\USUARIO\\source\\repos\\juanfra109\\nPIAPROGWEB\\",
   "Documents": [],
   "DocumentGroupContainers": [
     {
@@ -34,6 +34,22 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             }
           ]
         }

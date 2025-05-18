@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\PIA",
+    "\\PIA\\PIA",
+    "\\PIA\\PIA\\Views",
+    "\\PIA\\PIA\\Views\\Shared"
   ],
+  "SelectedNode": "\\PIA\\PIA\\Views\\Shared\\_Layout.cshtml",
   "PreviewInSolutionExplorer": false
 }

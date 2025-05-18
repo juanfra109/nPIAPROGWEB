@@ -1,4 +1,8 @@
-﻿@{
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+@{
     Layout = null;
 }
 <!DOCTYPE html>
@@ -13,14 +17,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/PIA.styles.css" asp-append-version="true" />
+
     <style>
         .navbar-brand span {
             font-family: 'Pacifico', cursive;
             font-size: 24px;
             color: #137547;
         }
+
         .navbar-custom {
             background-color: white;
+            border-bottom: 2px solid #ccc;
             box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
         }
 
@@ -36,20 +43,32 @@
             font-weight: 500;
         }
 
-            .nav-link:hover {
-                color: #0a4e2c !important;
-            }
+        .nav-link:hover {
+            color: #0a4e2c !important;
+        }
 
         .btn-login {
             background-color: #1f1f1f;
             color: white;
             font-weight: bold;
             border-radius: 8px;
+            padding: 8px 15px;
+            text-decoration: none;
+            margin-right: 30px;
         }
 
-            .btn-login i {
-                margin-right: 5px;
-            }
+        .btn-login:hover {
+            background-color: #333333;
+            color: white;
+        }
+
+        .btn-login i {
+            margin-right: 5px;
+        }
+
+        .navbar-nav {
+            gap: 2rem;
+        }
     </style>
 </head>
 <body>
@@ -65,7 +84,7 @@
                 </button>
 
                 <div class="collapse navbar-collapse justify-content-between" id="navbarContent">
-                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0 d-flex align-items-center">
                         <li class="nav-item">
                             <a class="nav-link" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
@@ -79,9 +98,35 @@
                             <a class="nav-link" asp-controller="Home" asp-action="Contact">Contact Us</a>
                         </li>
                     </ul>
-                    <a class="btn btn-login d-flex align-items-center" asp-controller="Account" asp-action="Login">
-                        <i class="fas fa-user-circle"></i> Log In
-                    </a>
+
+                    <!-- Sección de usuario -->
+                    <ul class="navbar-nav">
+                        @if (SignInManager.IsSignedIn(User))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hola, @User.Identity?.Name!</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-controller="Carritoes" asp-action="Index">Ver carrito</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-controller="Ordens" asp-action="Index">Ver mis órdenes</a>
+                            </li>
+                            <li class="nav-item">
+                                <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                                    <button type="submit" class="nav-link btn-danger btn-link text-light">Logout</button>
+                                </form>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="btn btn-login d-flex align-items-center" asp-area="Identity" asp-page="/Account/Login">
+                                    <i class="fas fa-user-circle"></i> Iniciar Sesión
+                                </a>
+                            </li>
+                        }
+                    </ul>
                 </div>
             </div>
         </nav>
@@ -95,7 +140,7 @@
 
     <footer class="bg-dark text-light text-center py-3">
         <div class="container d-flex justify-content-between">
-            <span>&copy; 2024 ReadPoint</span>
+            <span>&copy; @DateTime.Now.Year ReadPoint</span>
             <a class="text-light text-decoration-underline" asp-controller="Home" asp-action="Privacy">Política de Privacidad</a>
         </div>
     </footer>

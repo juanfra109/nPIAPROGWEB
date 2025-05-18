@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yTEY7ebWRWY=",
+  "dgSpecHash": "gMmMEPuw8Oc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\USUARIO\\Desktop\\nPIAPROGWEB\\PIA\\PIA\\PIA.csproj",
+  "projectFilePath": "C:\\Users\\USUARIO\\source\\repos\\juanfra109\\nPIAPROGWEB\\PIA\\PIA\\PIA.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USUARIO\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
