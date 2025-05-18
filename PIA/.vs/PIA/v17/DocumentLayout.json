@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Chuy\\Desktop\\FIME ITS\\Octavo Semestre\\Topicos Selectos de Missael\\Pia\\PIA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|c:\\users\\chuy\\desktop\\fime its\\octavo semestre\\topicos selectos de missael\\pia\\pia\\pia\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|solutionrelative:pia\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|c:\\users\\chuy\\desktop\\fime its\\octavo semestre\\topicos selectos de missael\\pia\\pia\\pia\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|solutionrelative:pia\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|c:\\users\\chuy\\desktop\\fime its\\octavo semestre\\topicos selectos de missael\\pia\\pia\\pia\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|solutionrelative:pia\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|c:\\users\\chuy\\desktop\\fime its\\octavo semestre\\topicos selectos de missael\\pia\\pia\\pia\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|solutionrelative:pia\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|c:\\users\\chuy\\desktop\\fime its\\octavo semestre\\topicos selectos de missael\\pia\\pia\\pia\\wwwroot\\css\\register.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|solutionrelative:pia\\wwwroot\\css\\register.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|c:\\users\\chuy\\desktop\\fime its\\octavo semestre\\topicos selectos de missael\\pia\\pia\\pia\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|solutionrelative:pia\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|c:\\users\\chuy\\desktop\\fime its\\octavo semestre\\topicos selectos de missael\\pia\\pia\\pia\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|solutionrelative:pia\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|c:\\users\\chuy\\desktop\\fime its\\octavo semestre\\topicos selectos de missael\\pia\\pia\\pia\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|solutionrelative:pia\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|c:\\users\\chuy\\desktop\\fime its\\octavo semestre\\topicos selectos de missael\\pia\\pia\\pia\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -78,29 +86,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Chuy\\Desktop\\FIME ITS\\Octavo Semestre\\Topicos Selectos de Missael\\Pia\\PIA\\PIA\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "PIA\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\Chuy\\Desktop\\FIME ITS\\Octavo Semestre\\Topicos Selectos de Missael\\Pia\\PIA\\PIA\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "PIA\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABPAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-17T22:07:41.085Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\Chuy\\Desktop\\FIME ITS\\Octavo Semestre\\Topicos Selectos de Missael\\Pia\\PIA\\PIA\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "PIA\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\Chuy\\Desktop\\FIME ITS\\Octavo Semestre\\Topicos Selectos de Missael\\Pia\\PIA\\PIA\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeToolTip": "PIA\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-17T22:03:46.335Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-17T22:07:41.085Z"
             },
             {
               "$type": "Document",
@@ -110,27 +104,62 @@
               "RelativeDocumentMoniker": "PIA\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "ToolTip": "C:\\Users\\Chuy\\Desktop\\FIME ITS\\Octavo Semestre\\Topicos Selectos de Missael\\Pia\\PIA\\PIA\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeToolTip": "PIA\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ViewState": "AgIAACsAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-17T22:04:01.583Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-17T22:04:01.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "register.css",
+              "DocumentMoniker": "C:\\Users\\Chuy\\Desktop\\FIME ITS\\Octavo Semestre\\Topicos Selectos de Missael\\Pia\\PIA\\PIA\\wwwroot\\css\\register.css",
+              "RelativeDocumentMoniker": "PIA\\wwwroot\\css\\register.css",
+              "ToolTip": "C:\\Users\\Chuy\\Desktop\\FIME ITS\\Octavo Semestre\\Topicos Selectos de Missael\\Pia\\PIA\\PIA\\wwwroot\\css\\register.css",
+              "RelativeToolTip": "PIA\\wwwroot\\css\\register.css",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAIwGMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-18T02:57:11.286Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Chuy\\Desktop\\FIME ITS\\Octavo Semestre\\Topicos Selectos de Missael\\Pia\\PIA\\PIA\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "PIA\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Chuy\\Desktop\\FIME ITS\\Octavo Semestre\\Topicos Selectos de Missael\\Pia\\PIA\\PIA\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "PIA\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-17T22:03:46.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "login.css",
+              "DocumentMoniker": "C:\\Users\\Chuy\\Desktop\\FIME ITS\\Octavo Semestre\\Topicos Selectos de Missael\\Pia\\PIA\\PIA\\wwwroot\\css\\login.css",
+              "RelativeDocumentMoniker": "PIA\\wwwroot\\css\\login.css",
+              "ToolTip": "C:\\Users\\Chuy\\Desktop\\FIME ITS\\Octavo Semestre\\Topicos Selectos de Missael\\Pia\\PIA\\PIA\\wwwroot\\css\\login.css",
+              "RelativeToolTip": "PIA\\wwwroot\\css\\login.css",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAGsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-18T03:37:42.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\Chuy\\Desktop\\FIME ITS\\Octavo Semestre\\Topicos Selectos de Missael\\Pia\\PIA\\PIA\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "PIA\\wwwroot\\css\\site.css",
               "ToolTip": "C:\\Users\\Chuy\\Desktop\\FIME ITS\\Octavo Semestre\\Topicos Selectos de Missael\\Pia\\PIA\\PIA\\wwwroot\\css\\site.css",
               "RelativeToolTip": "PIA\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-17T22:01:07.379Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-17T22:01:07.379Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Chuy\\Desktop\\FIME ITS\\Octavo Semestre\\Topicos Selectos de Missael\\Pia\\PIA\\PIA\\Views\\ApplicationUsers\\Index.cshtml",
               "RelativeDocumentMoniker": "PIA\\Views\\ApplicationUsers\\Index.cshtml",
@@ -138,12 +167,11 @@
               "RelativeToolTip": "PIA\\Views\\ApplicationUsers\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-17T21:57:46.529Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-17T21:57:46.529Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Chuy\\Desktop\\FIME ITS\\Octavo Semestre\\Topicos Selectos de Missael\\Pia\\PIA\\PIA\\Program.cs",
               "RelativeDocumentMoniker": "PIA\\Program.cs",
@@ -151,12 +179,11 @@
               "RelativeToolTip": "PIA\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T11:15:51.688Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T11:15:51.688Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Chuy\\Desktop\\FIME ITS\\Octavo Semestre\\Topicos Selectos de Missael\\Pia\\PIA\\PIA\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "PIA\\Views\\Home\\Index.cshtml",
@@ -164,12 +191,11 @@
               "RelativeToolTip": "PIA\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-16T09:54:51.592Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T09:54:51.592Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Chuy\\Desktop\\FIME ITS\\Octavo Semestre\\Topicos Selectos de Missael\\Pia\\PIA\\PIA\\Views\\Sugerencias\\Create.cshtml",
               "RelativeDocumentMoniker": "PIA\\Views\\Sugerencias\\Create.cshtml",
@@ -177,12 +203,11 @@
               "RelativeToolTip": "PIA\\Views\\Sugerencias\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-16T09:51:56.715Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T09:51:56.715Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Chuy\\Desktop\\FIME ITS\\Octavo Semestre\\Topicos Selectos de Missael\\Pia\\PIA\\PIA\\Views\\Solicitudes\\Index.cshtml",
               "RelativeDocumentMoniker": "PIA\\Views\\Solicitudes\\Index.cshtml",
@@ -190,12 +215,11 @@
               "RelativeToolTip": "PIA\\Views\\Solicitudes\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-16T09:51:18.401Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T09:51:18.401Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Admin.cshtml",
               "DocumentMoniker": "C:\\Users\\Chuy\\Desktop\\FIME ITS\\Octavo Semestre\\Topicos Selectos de Missael\\Pia\\PIA\\PIA\\Views\\Home\\Admin.cshtml",
               "RelativeDocumentMoniker": "PIA\\Views\\Home\\Admin.cshtml",
@@ -203,8 +227,7 @@
               "RelativeToolTip": "PIA\\Views\\Home\\Admin.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-05T04:58:04.05Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-05T04:58:04.05Z"
             }
           ]
         }

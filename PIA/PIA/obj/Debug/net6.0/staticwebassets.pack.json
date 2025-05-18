@@ -5,12 +5,24 @@
       "PackagePath": "staticwebassets\\PIA.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Chuy\\Desktop\\FIME ITS\\Octavo Semestre\\Topicos Selectos de Missael\\Pia\\PIA\\PIA\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\Chuy\\Desktop\\FIME ITS\\Octavo Semestre\\Topicos Selectos de Missael\\Pia\\PIA\\PIA\\wwwroot\\css\\register.css",
+      "PackagePath": "staticwebassets\\css\\register.css"
+    },
+    {
       "Id": "C:\\Users\\Chuy\\Desktop\\FIME ITS\\Octavo Semestre\\Topicos Selectos de Missael\\Pia\\PIA\\PIA\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\Chuy\\Desktop\\FIME ITS\\Octavo Semestre\\Topicos Selectos de Missael\\Pia\\PIA\\PIA\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Chuy\\Desktop\\FIME ITS\\Octavo Semestre\\Topicos Selectos de Missael\\Pia\\PIA\\PIA\\wwwroot\\images\\Log_In_Img.png",
+      "PackagePath": "staticwebassets\\images\\Log_In_Img.png"
     },
     {
       "Id": "C:\\Users\\Chuy\\Desktop\\FIME ITS\\Octavo Semestre\\Topicos Selectos de Missael\\Pia\\PIA\\PIA\\wwwroot\\images\\book-icon.svg",
