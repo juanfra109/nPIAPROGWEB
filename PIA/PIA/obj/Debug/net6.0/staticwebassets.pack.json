@@ -29,6 +29,10 @@
       "PackagePath": "staticwebassets\\images\\book-icon.svg"
     },
     {
+      "Id": "C:\\Users\\Juan Francisco\\Source\\Repos\\PIAPROGWEB\\PIA\\PIA\\wwwroot\\images\\fondoinic.png",
+      "PackagePath": "staticwebassets\\images\\fondoinic.png"
+    },
+    {
       "Id": "C:\\Users\\Juan Francisco\\Source\\Repos\\PIAPROGWEB\\PIA\\PIA\\wwwroot\\js\\Index.LibroCatalogo.js",
       "PackagePath": "staticwebassets\\js\\Index.LibroCatalogo.js"
     },

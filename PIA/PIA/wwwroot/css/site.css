@@ -22,19 +22,12 @@ body {
   height: 40px;
   float: left;
 }
-p{
-  text-align: left;
-  font-size: 20px;
-}
+
 h1{
   text-align: left;
   color: purple;
 }
-h2{
-  text-align: left;
-  color: #bc843d;
 
-}
 .imagen1{
     margin-top: 50px;
   margin-left: 50px;
@@ -168,4 +161,67 @@ body {
 
 .carrito{
     font-size: 23px;
+}
+
+.banner {
+    background-image: url('../images/fondoinic.png');
+    height: 30rem;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.footerini {
+    background-color: #1C2321;
+    padding-bottom: 25px;
+}
+
+.iniciosec{
+    background-color: white;
+    padding-top:18px;
+    padding-bottom: 18px;
+    
+}
+
+#Contact{
+    text-align: center;
+    color: white;
+    padding-top:25px;
+    padding-bottom: 25px;
+}
+#formsug{
+    padding-left:20px;
+    padding-right: 20px;
+}
+
+#inicfon {
+    padding-top: 50px;
+    padding-left: 50px;
+    color: #F6F2FF;
+}
+
+#h2inban{
+    padding-bottom: 20px;
+    font-size: 50px;
+    text-align:justify;
+}
+
+#pinban {
+    font-size: 23px;
+    text-align: justify;
 }

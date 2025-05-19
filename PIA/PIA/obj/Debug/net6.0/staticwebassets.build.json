@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "djDDRrsysEk/QuGJVm7y1HsDOXkX7x/xaPt4d0Z8DBY=",
+  "Hash": "0rDuE/R+iZ44syG11fSXlzAhx8nVdHImUagXVFkUiEE=",
   "Source": "PIA",
   "BasePath": "_content/PIA",
   "Mode": "Default",
@@ -1375,8 +1375,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "w05iao9yrj",
-      "Integrity": "EFwgothLSKu6aymAoSJuoE4qxsbs252ffJAR417VMH8=",
+      "Fingerprint": "wipt0t8dcd",
+      "Integrity": "eHpblDjcSqVr1daTNszljrvNWBL/MPfglldfeAWnvRQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1422,6 +1422,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\book-icon.svg"
+    },
+    {
+      "Identity": "C:\\Users\\Juan Francisco\\Source\\Repos\\PIAPROGWEB\\PIA\\PIA\\wwwroot\\images\\fondoinic.png",
+      "SourceId": "PIA",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Juan Francisco\\Source\\Repos\\PIAPROGWEB\\PIA\\PIA\\wwwroot\\",
+      "BasePath": "_content/PIA",
+      "RelativePath": "images/fondoinic#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "z5j6lnpcve",
+      "Integrity": "hye+BjVW6Nxw7fCHtCZ1Ss6pJ0CqTsYoeQW5ee7C35Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\fondoinic.png"
     },
     {
       "Identity": "C:\\Users\\Juan Francisco\\Source\\Repos\\PIAPROGWEB\\PIA\\PIA\\wwwroot\\images\\Log_In_Img.png",
@@ -2860,7 +2881,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2739"
+          "Value": "3618"
         },
         {
           "Name": "Content-Type",
@@ -2868,11 +2889,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"EFwgothLSKu6aymAoSJuoE4qxsbs252ffJAR417VMH8=\""
+          "Value": "\"eHpblDjcSqVr1daTNszljrvNWBL/MPfglldfeAWnvRQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 05:48:00 GMT"
+          "Value": "Mon, 19 May 2025 12:05:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2882,12 +2903,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-EFwgothLSKu6aymAoSJuoE4qxsbs252ffJAR417VMH8="
+          "Value": "sha256-eHpblDjcSqVr1daTNszljrvNWBL/MPfglldfeAWnvRQ="
         }
       ]
     },
     {
-      "Route": "css/site.w05iao9yrj.css",
+      "Route": "css/site.wipt0t8dcd.css",
       "AssetFile": "C:\\Users\\Juan Francisco\\Source\\Repos\\PIAPROGWEB\\PIA\\PIA\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2897,7 +2918,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2739"
+          "Value": "3618"
         },
         {
           "Name": "Content-Type",
@@ -2905,11 +2926,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"EFwgothLSKu6aymAoSJuoE4qxsbs252ffJAR417VMH8=\""
+          "Value": "\"eHpblDjcSqVr1daTNszljrvNWBL/MPfglldfeAWnvRQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 05:48:00 GMT"
+          "Value": "Mon, 19 May 2025 12:05:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2919,7 +2940,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "w05iao9yrj"
+          "Value": "wipt0t8dcd"
         },
         {
           "Name": "label",
@@ -2927,7 +2948,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-EFwgothLSKu6aymAoSJuoE4qxsbs252ffJAR417VMH8="
+          "Value": "sha256-eHpblDjcSqVr1daTNszljrvNWBL/MPfglldfeAWnvRQ="
         }
       ]
     },
@@ -5312,6 +5333,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-mR/tGVas2hfonYbI3hw5v7Y7mATpdjoQOf+QVdbLWzY="
+        }
+      ]
+    },
+    {
+      "Route": "images/fondoinic.png",
+      "AssetFile": "C:\\Users\\Juan Francisco\\Source\\Repos\\PIAPROGWEB\\PIA\\PIA\\wwwroot\\images\\fondoinic.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "245525"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hye+BjVW6Nxw7fCHtCZ1Ss6pJ0CqTsYoeQW5ee7C35Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 09:12:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hye+BjVW6Nxw7fCHtCZ1Ss6pJ0CqTsYoeQW5ee7C35Q="
+        }
+      ]
+    },
+    {
+      "Route": "images/fondoinic.z5j6lnpcve.png",
+      "AssetFile": "C:\\Users\\Juan Francisco\\Source\\Repos\\PIAPROGWEB\\PIA\\PIA\\wwwroot\\images\\fondoinic.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "245525"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hye+BjVW6Nxw7fCHtCZ1Ss6pJ0CqTsYoeQW5ee7C35Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 09:12:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z5j6lnpcve"
+        },
+        {
+          "Name": "label",
+          "Value": "images/fondoinic.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hye+BjVW6Nxw7fCHtCZ1Ss6pJ0CqTsYoeQW5ee7C35Q="
         }
       ]
     },
