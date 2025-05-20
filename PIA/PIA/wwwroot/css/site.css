@@ -189,12 +189,15 @@ html, body {
 .footerini {
     background-color: #1C2321;
     padding-bottom: 25px;
+    border-bottom: 2px solid #333;
 }
 
 .iniciosec{
     background-color: white;
     padding-top:18px;
     padding-bottom: 18px;
+    max-width: 80%;
+    height: 200px;
     
 }
 
@@ -290,4 +293,28 @@ html, body {
     border-top-right-radius: 90%;
     z-index: 0;
     transform: rotate(140deg)
+}
+.h2on {
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;
+}
+.spanon {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;    
+}
+.txtns {
+    text-align: justify;
+    font-size: 25px;
+}
+
+.sobrens {
+    padding-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.libronos {
+    width: 55%;
+    height: 55%;
+    padding-top: 100px;
+    margin-left: 150px;
 }

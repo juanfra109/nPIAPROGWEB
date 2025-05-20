@@ -11,16 +11,16 @@
       "RelativeMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|solutionrelative:pia\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|c:\\users\\juan francisco\\source\\repos\\piaprogweb\\pia\\pia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|solutionrelative:pia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|c:\\users\\juan francisco\\source\\repos\\piaprogweb\\pia\\pia\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|solutionrelative:pia\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|c:\\users\\juan francisco\\source\\repos\\piaprogweb\\pia\\pia\\wwwroot\\js\\index.librocatalogo.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|solutionrelative:pia\\wwwroot\\js\\index.librocatalogo.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|c:\\users\\juan francisco\\source\\repos\\piaprogweb\\pia\\pia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|solutionrelative:pia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|c:\\users\\juan francisco\\source\\repos\\piaprogweb\\pia\\pia\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -50,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -81,6 +81,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Francisco\\source\\repos\\PIAPROGWEB\\PIA\\PIA\\Program.cs",
+              "RelativeDocumentMoniker": "PIA\\Program.cs",
+              "ToolTip": "C:\\Users\\Juan Francisco\\source\\repos\\PIAPROGWEB\\PIA\\PIA\\Program.cs",
+              "RelativeToolTip": "PIA\\Program.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T02:27:32.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Juan Francisco\\source\\repos\\PIAPROGWEB\\PIA\\PIA\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "PIA\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Juan Francisco\\source\\repos\\PIAPROGWEB\\PIA\\PIA\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "PIA\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAALEAAAAAAAAAAADgv78AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-17T22:01:07.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "site.js",
               "DocumentMoniker": "C:\\Users\\Juan Francisco\\source\\repos\\PIAPROGWEB\\PIA\\PIA\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "PIA\\wwwroot\\js\\site.js",
@@ -89,18 +115,6 @@
               "ViewState": "AgIAABIAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-05-20T02:29:11.481Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Francisco\\source\\repos\\PIAPROGWEB\\PIA\\PIA\\Program.cs",
-              "RelativeDocumentMoniker": "PIA\\Program.cs",
-              "ToolTip": "C:\\Users\\Juan Francisco\\source\\repos\\PIAPROGWEB\\PIA\\PIA\\Program.cs",
-              "RelativeToolTip": "PIA\\Program.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T02:27:32.95Z"
             },
             {
               "$type": "Document",
@@ -122,27 +136,14 @@
               "RelativeDocumentMoniker": "PIA\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\Juan Francisco\\source\\repos\\PIAPROGWEB\\PIA\\PIA\\Views\\Home\\Index.cshtml*",
               "RelativeToolTip": "PIA\\Views\\Home\\Index.cshtml*",
-              "ViewState": "AgIAAJYAAAAAAAAAAAAAAKUAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAMYAAAAAAAAAAAAAAMsAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-16T09:54:51.592Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\Juan Francisco\\source\\repos\\PIAPROGWEB\\PIA\\PIA\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "PIA\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\Juan Francisco\\source\\repos\\PIAPROGWEB\\PIA\\PIA\\wwwroot\\css\\site.css*",
-              "RelativeToolTip": "PIA\\wwwroot\\css\\site.css*",
-              "ViewState": "AgIAABABAAAAAAAAAAAwwAgBAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-17T22:01:07.379Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Index.LibroCatalogo.js",
               "DocumentMoniker": "C:\\Users\\Juan Francisco\\source\\repos\\PIAPROGWEB\\PIA\\PIA\\wwwroot\\js\\Index.LibroCatalogo.js",
               "RelativeDocumentMoniker": "PIA\\wwwroot\\js\\Index.LibroCatalogo.js",
