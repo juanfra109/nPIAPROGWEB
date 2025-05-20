@@ -5,9 +5,9 @@
     padding: 0;
 }
 
-/Container principal/
+/* Container principal */
 .login-container {
-    display: flex;
+    display: flex !important;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -15,9 +15,10 @@
     gap: 1rem;
     height: 600px;
     box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
 }
 
-/Imagen de muestra/
+/* Imagen de muestra */
 .login-left {
     flex: 1;
     min-width: 280px;
@@ -26,14 +27,14 @@
     align-items: center;
 }
 
-.login-left img {
-    width: 100%;
-    max-width: 440px;
-    min-width: 300px;
-    height: auto;
-}
+    .login-left img {
+        width: 100%;
+        max-width: 440px;
+        min-width: 300px;
+        height: auto;
+    }
 
-/Form/
+/* Formulario */
 .login-right {
     flex: 1;
     min-width: 420px;
@@ -44,38 +45,38 @@
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-.login-right h2 {
-    text-align: center;
-    color: #3c8c62;
-    margin-bottom: 1.5rem;
-}
-
-.login-right input[type="text"],
-.login-right input[type="password"],
-.login-right input[type="email"] {
-    width: 100%;
-    padding: 0.8rem;
-    margin-bottom: 0.8rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 0.95rem;
-}
-
-.login-right button {
-    width: 100%;
-    background-color: #3c8c62;
-    color: white;
-    padding: 0.8rem;
-    border: none;
-    border-radius: 5px;
-    font-size: 1rem;
-    margin-top: 1rem;
-    cursor: pointer;
-}
-
-    .login-right button:hover {
-        background-color: #367c56;
+    .login-right h2 {
+        text-align: center;
+        color: #3c8c62;
+        margin-bottom: 1.5rem;
     }
+
+    .login-right input[type="text"],
+    .login-right input[type="password"],
+    .login-right input[type="email"] {
+        width: 100%;
+        padding: 0.8rem;
+        margin-bottom: 0.8rem;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 0.95rem;
+    }
+
+    .login-right button {
+        width: 100%;
+        background-color: #3c8c62;
+        color: white;
+        padding: 0.8rem;
+        border: none;
+        border-radius: 5px;
+        font-size: 1rem;
+        margin-top: 1rem;
+        cursor: pointer;
+    }
+
+        .login-right button:hover {
+            background-color: #367c56;
+        }
 
 .text-danger {
     font-size: 0.85rem;
@@ -114,6 +115,6 @@
     }
 
     .login-left img {
-        max-width: 450px;
+        max-width: 200px;
     }
 }

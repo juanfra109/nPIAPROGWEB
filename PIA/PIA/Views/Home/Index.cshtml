@@ -1,5 +1,6 @@
 ﻿@model PIA.Models.dbModels.Sugerencia
 
+
 @{
     Layout = null;
 }
@@ -17,7 +18,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title data-no-layout="true">Home Page - ReadPoint</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   
+
 
 
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
@@ -96,13 +100,13 @@
                             <a class="nav-link" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" asp-controller="Home" asp-action="About">Sobre nosotros</a>
+                            <a class="nav-link" href="#sobrenos">Sobre nosotros</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" asp-controller="LibroCatalogo" asp-action="Index">Catálogo</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" asp-controller="Home" asp-action="Contact">Contact Us</a>
+                            <a class="nav-link" href="#footercontact">Contact Us</a>
                         </li>
                     </ul>
 
@@ -186,7 +190,7 @@
 
             </div>
         </article>
-        <div class="row align-items-start sobrens">
+        <div class="row align-items-start sobrens" id="sobrenos">
             <div class="col">
                 <span class="text-success spanon">ReadPoint</span>
                 <h2 class="text-success h2on">Tu punto de encuentro con la lectura</h2>
@@ -201,24 +205,55 @@
             </div>
         </div>
     </main>
-    <footer class=" bg-dark footerini">
+    <footer class=" bg-dark footerini" id="footercontact">
     <h2 id="Contact">Contact Us</h2>
     <div class="row">
         <div class="col">
-            rtyui
+                <div class="row filaln">
+                    <div class="col d-flex align-items-start">
+                        <i class="fa-solid fa-location-dot iconosf me-4" style="color: #ffffff;"></i>
+                        <p class="textoft">Ciudad Universitaria, San Nicolás de los<br />Garza, N.L.</p>
+                    </div>
+                </div>
+                <div class="row filaln">
+                    <div class="col d-flex align-items-start">
+                            <i class="fa-solid fa-phone iconosf me-4" style="color: #ffffff;"></i>
+                            <p class="textoft">+52 81 XXXX XXXX</p>
+                    </div>
+                </div>
+                <div class="row filaln">
+                    <div class="col d-flex align-items-start">
+                        <i class="fa-solid fa-envelope iconosf me-4" style="color: #ffffff;"></i>
+                        <p class="textoft">redpoint@gmail.com</p>
+                    </div>
+
+                </div>
+            <div class="container">
+                <div class="row filaln">
+                        <div class="col-sm">
+                            <a href="https://www.x.com/RedPointLib"><i class="fa-brands fa-square-twitter iconosf2" style="color: #ffffff;"></i></a>
+                        </div>
+                        <div class="col-sm">
+                            <a href="https://www.facebook.com/RedPointLib"><i class="fa-brands fa-square-facebook iconosf2" style="color: #ffffff;"></i></a>
+                        </div>
+                        <div class="col-sm">
+                            <a href="https://www.instagram.com/RedPointLib"><i class="fa-brands fa-square-instagram iconosf2" style="color: #ffffff;"></i></a>
+                        </div>
+                </div>
+            </div>
         </div>
         <div class="col">
             <div class="iniciosec">
-                <form asp-action="Create" asp-controller="Sugerencias" id="formsug">
+                <form asp-action="Create" asp-controller="Sugerencias" id="formsug" class="fw-bold">
                     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                     <div class="form-group">
                         <label asp-for="Descripcion" class="control-label text-success sugs">Sugerencias</label>
-                        <input asp-for="Descripcion" class="form-control" value="Escribe tu mensaje" />
+                        <input asp-for="Descripcion" class="form-control inpufor" placeholder="Escribe tu mensaje" />
                         <span asp-validation-for="Descripcion" class="text-danger"></span>
                     </div>
 
-                    <div class="form-group">
-                        <input type="submit" value="Create" class="btn btn-primary" />
+                    <div class="form-group center">
+                             <input type="submit" value="Enviar" class="btn btn-success botnenv" />
                     </div>
                 </form>
             </div>

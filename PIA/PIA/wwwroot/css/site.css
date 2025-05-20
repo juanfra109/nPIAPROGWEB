@@ -48,7 +48,6 @@ body {
     background-color: white;
 }
 a{
-    background-color: white;
     color: black;
     text-align: center;
 }
@@ -70,8 +69,9 @@ a{
 .misord{
     background-color: #c2f6f5;
 }
-.iniciosec{
-    margin: 0 auto;
+.iniciosec {
+    margin: auto;
+    margin-top: 70px;
 }
 .clasea{
     background-color: white;
@@ -323,4 +323,40 @@ html, body {
 }
 .sugs {
     font-size: 30px;
+}
+.inpufor {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-color: #7DBA84;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-right:auto;
+    color: grey;
+}
+.botnenv {
+    width: 150px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+div.center {
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 50%;
+}
+.iconosf {
+    font-size: 30px;
+}
+.filaln {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 150px;
+}
+.textoft{
+    color: #ffffff;
+}
+.iconosf2 {
+    font-size: 50px;
 }
