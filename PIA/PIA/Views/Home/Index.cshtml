@@ -190,7 +190,7 @@
             <div class="col">
                 <span class="text-success spanon">ReadPoint</span>
                 <h2 class="text-success h2on">Tu punto de encuentro con la lectura</h2>
-                <p class="txtns">En ReadPoint creemos que cada lector merece un punto de encuentro confiable, accesible y lleno de posibilidades. Nuestra plataforma fue creada para reunir a amantes de los libros, autores y vendedores en un solo lugar, facilitando la compra y venta de libros físicos y digitales de forma segura y eficiente.</p>
+                <p class="txtns inln">En </p><p class="text-success txtns inln">ReadPoint </p><p class="txtns inln">creemos que cada lector merece un punto de encuentro confiable, accesible y lleno de posibilidades. Nuestra plataforma fue creada para reunir a amantes de los libros, autores y vendedores en un solo lugar, facilitando la compra y venta de libros físicos y digitales de forma segura y eficiente.</p>
                 <p class="txtns">Tanto si buscas esa edición especial, deseas publicar tu obra o vender los libros que ya leíste, aquí tienes un espacio pensado para ti. Además, puedes sugerir títulos que te gustaría encontrar. Nosotros nos encargamos de ayudarte a conseguirlos.</p>
             </div>
             <div class="col">
@@ -212,7 +212,7 @@
                 <form asp-action="Create" asp-controller="Sugerencias" id="formsug">
                     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                     <div class="form-group">
-                        <label asp-for="Descripcion" class="control-label">Sugerencias</label>
+                        <label asp-for="Descripcion" class="control-label text-success sugs">Sugerencias</label>
                         <input asp-for="Descripcion" class="form-control" value="Escribe tu mensaje" />
                         <span asp-validation-for="Descripcion" class="text-danger"></span>
                     </div>

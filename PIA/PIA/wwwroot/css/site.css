@@ -318,3 +318,9 @@ html, body {
     padding-top: 100px;
     margin-left: 150px;
 }
+.inln{
+    display: inline;
+}
+.sugs {
+    font-size: 30px;
+}

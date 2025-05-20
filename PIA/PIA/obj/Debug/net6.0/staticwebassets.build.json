@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4vlTjUCzgKy9K2dgqoM5UjlOXxZkWcPO+sKYOpXYRgw=",
+  "Hash": "VBMa+BhS/2b1eGo1ij+bKTdIZW2z3XrCQoDQmCEL3sY=",
   "Source": "PIA",
   "BasePath": "_content/PIA",
   "Mode": "Default",
@@ -1333,8 +1333,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "5aa0q3r4rv",
-      "Integrity": "DSpBLirIj0wXTlT6W3Iw9tIdSW1uXmqkBga1j6w+RBo=",
+      "Fingerprint": "l1ecn0bfap",
+      "Integrity": "50ZgDHsVHqOqi/LemNWY9E0TKlEcVNcC1nNVl6xNJyg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\login.css"
@@ -1375,8 +1375,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "hltt997qje",
-      "Integrity": "62eN8floEdPe8dC2QRqK/QgCqwSjR8LkHCOP699yMjQ=",
+      "Fingerprint": "c5vgxsm1gy",
+      "Integrity": "sFLFAa1OFGB3PNgEo6XU+Fkv61cGGtlqvJ1HFygIw6o=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -2770,51 +2770,6 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/login.5aa0q3r4rv.css",
-      "AssetFile": "C:\\Users\\Juan Francisco\\Source\\Repos\\PIAPROGWEB\\PIA\\PIA\\wwwroot\\css\\login.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2297"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"DSpBLirIj0wXTlT6W3Iw9tIdSW1uXmqkBga1j6w+RBo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 11:20:03 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "5aa0q3r4rv"
-        },
-        {
-          "Name": "label",
-          "Value": "css/login.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-DSpBLirIj0wXTlT6W3Iw9tIdSW1uXmqkBga1j6w+RBo="
-        }
-      ]
-    },
-    {
       "Route": "css/login.css",
       "AssetFile": "C:\\Users\\Juan Francisco\\Source\\Repos\\PIAPROGWEB\\PIA\\PIA\\wwwroot\\css\\login.css",
       "Selectors": [],
@@ -2825,7 +2780,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2297"
+          "Value": "2055"
         },
         {
           "Name": "Content-Type",
@@ -2833,11 +2788,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"DSpBLirIj0wXTlT6W3Iw9tIdSW1uXmqkBga1j6w+RBo=\""
+          "Value": "\"50ZgDHsVHqOqi/LemNWY9E0TKlEcVNcC1nNVl6xNJyg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 11:20:03 GMT"
+          "Value": "Tue, 20 May 2025 06:06:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2847,7 +2802,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-DSpBLirIj0wXTlT6W3Iw9tIdSW1uXmqkBga1j6w+RBo="
+          "Value": "sha256-50ZgDHsVHqOqi/LemNWY9E0TKlEcVNcC1nNVl6xNJyg="
+        }
+      ]
+    },
+    {
+      "Route": "css/login.l1ecn0bfap.css",
+      "AssetFile": "C:\\Users\\Juan Francisco\\Source\\Repos\\PIAPROGWEB\\PIA\\PIA\\wwwroot\\css\\login.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2055"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"50ZgDHsVHqOqi/LemNWY9E0TKlEcVNcC1nNVl6xNJyg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 06:06:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l1ecn0bfap"
+        },
+        {
+          "Name": "label",
+          "Value": "css/login.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-50ZgDHsVHqOqi/LemNWY9E0TKlEcVNcC1nNVl6xNJyg="
         }
       ]
     },
@@ -2934,6 +2934,51 @@
       ]
     },
     {
+      "Route": "css/site.c5vgxsm1gy.css",
+      "AssetFile": "C:\\Users\\Juan Francisco\\Source\\Repos\\PIAPROGWEB\\PIA\\PIA\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5440"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sFLFAa1OFGB3PNgEo6XU+Fkv61cGGtlqvJ1HFygIw6o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 06:02:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c5vgxsm1gy"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sFLFAa1OFGB3PNgEo6XU+Fkv61cGGtlqvJ1HFygIw6o="
+        }
+      ]
+    },
+    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\Juan Francisco\\Source\\Repos\\PIAPROGWEB\\PIA\\PIA\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -2944,7 +2989,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5375"
+          "Value": "5440"
         },
         {
           "Name": "Content-Type",
@@ -2952,11 +2997,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"62eN8floEdPe8dC2QRqK/QgCqwSjR8LkHCOP699yMjQ=\""
+          "Value": "\"sFLFAa1OFGB3PNgEo6XU+Fkv61cGGtlqvJ1HFygIw6o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 05:40:45 GMT"
+          "Value": "Tue, 20 May 2025 06:02:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2966,52 +3011,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-62eN8floEdPe8dC2QRqK/QgCqwSjR8LkHCOP699yMjQ="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.hltt997qje.css",
-      "AssetFile": "C:\\Users\\Juan Francisco\\Source\\Repos\\PIAPROGWEB\\PIA\\PIA\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5375"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"62eN8floEdPe8dC2QRqK/QgCqwSjR8LkHCOP699yMjQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 05:40:45 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "hltt997qje"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-62eN8floEdPe8dC2QRqK/QgCqwSjR8LkHCOP699yMjQ="
+          "Value": "sha256-sFLFAa1OFGB3PNgEo6XU+Fkv61cGGtlqvJ1HFygIw6o="
         }
       ]
     },

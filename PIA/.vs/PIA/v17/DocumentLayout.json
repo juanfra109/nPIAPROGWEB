@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Juan Francisco\\source\\repos\\PIAPROGWEB\\PIA\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|c:\\users\\juan francisco\\source\\repos\\piaprogweb\\pia\\pia\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|solutionrelative:pia\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|c:\\users\\juan francisco\\source\\repos\\piaprogweb\\pia\\pia\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|solutionrelative:pia\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
@@ -50,11 +54,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Juan Francisco\\source\\repos\\PIAPROGWEB\\PIA\\PIA\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
               "RelativeDocumentMoniker": "PIA\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
@@ -67,7 +71,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\Juan Francisco\\source\\repos\\PIAPROGWEB\\PIA\\PIA\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "PIA\\Views\\Shared\\_LoginPartial.cshtml",
@@ -80,7 +84,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "login.css",
+              "DocumentMoniker": "C:\\Users\\Juan Francisco\\source\\repos\\PIAPROGWEB\\PIA\\PIA\\wwwroot\\css\\login.css",
+              "RelativeDocumentMoniker": "PIA\\wwwroot\\css\\login.css",
+              "ToolTip": "C:\\Users\\Juan Francisco\\source\\repos\\PIAPROGWEB\\PIA\\PIA\\wwwroot\\css\\login.css",
+              "RelativeToolTip": "PIA\\wwwroot\\css\\login.css",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAIwGwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-20T06:05:59.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Juan Francisco\\source\\repos\\PIAPROGWEB\\PIA\\PIA\\Program.cs",
               "RelativeDocumentMoniker": "PIA\\Program.cs",
@@ -93,20 +110,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\Juan Francisco\\source\\repos\\PIAPROGWEB\\PIA\\PIA\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "PIA\\wwwroot\\css\\site.css",
               "ToolTip": "C:\\Users\\Juan Francisco\\source\\repos\\PIAPROGWEB\\PIA\\PIA\\wwwroot\\css\\site.css",
               "RelativeToolTip": "PIA\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAALEAAAAAAAAAAADgv78AAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAADkBAAAAAAAAAAAAAEQBAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-05-17T22:01:07.379Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "site.js",
               "DocumentMoniker": "C:\\Users\\Juan Francisco\\source\\repos\\PIAPROGWEB\\PIA\\PIA\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "PIA\\wwwroot\\js\\site.js",
@@ -118,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\Juan Francisco\\source\\repos\\PIAPROGWEB\\PIA\\PIA\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "PIA\\Views\\_ViewStart.cshtml",
@@ -130,20 +147,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Juan Francisco\\source\\repos\\PIAPROGWEB\\PIA\\PIA\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "PIA\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Juan Francisco\\source\\repos\\PIAPROGWEB\\PIA\\PIA\\Views\\Home\\Index.cshtml*",
-              "RelativeToolTip": "PIA\\Views\\Home\\Index.cshtml*",
-              "ViewState": "AgIAAMYAAAAAAAAAAAAAAMsAAAAlAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Juan Francisco\\source\\repos\\PIAPROGWEB\\PIA\\PIA\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "PIA\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAMcAAAAAAAAAAAAAANYAAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-16T09:54:51.592Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Index.LibroCatalogo.js",
               "DocumentMoniker": "C:\\Users\\Juan Francisco\\source\\repos\\PIAPROGWEB\\PIA\\PIA\\wwwroot\\js\\Index.LibroCatalogo.js",
               "RelativeDocumentMoniker": "PIA\\wwwroot\\js\\Index.LibroCatalogo.js",
@@ -155,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Juan Francisco\\source\\repos\\PIAPROGWEB\\PIA\\PIA\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "PIA\\Views\\Shared\\_Layout.cshtml",
@@ -167,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Admin.cshtml",
               "DocumentMoniker": "C:\\Users\\Juan Francisco\\source\\repos\\PIAPROGWEB\\PIA\\PIA\\Views\\Home\\Admin.cshtml",
               "RelativeDocumentMoniker": "PIA\\Views\\Home\\Admin.cshtml",
