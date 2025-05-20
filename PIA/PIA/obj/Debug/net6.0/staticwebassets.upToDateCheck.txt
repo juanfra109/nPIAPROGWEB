@@ -4,6 +4,8 @@ wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\images\book-icon.svg
 wwwroot\images\fondoinic.png
+wwwroot\images\itlibro.jpg
+wwwroot\images\itlibro.jpg.crdownload
 wwwroot\images\Log_In_Img.png
 wwwroot\js\Index.LibroCatalogo.js
 wwwroot\js\site.js

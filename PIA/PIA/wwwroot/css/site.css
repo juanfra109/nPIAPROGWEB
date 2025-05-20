@@ -225,3 +225,69 @@ html, body {
     font-size: 23px;
     text-align: justify;
 }
+
+.maininic {
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#h2inic {
+    color: #3E885B;
+}
+.lineainic {
+    color: yellow;
+    border: 1.5px;
+    border-style: solid;    
+}
+#pinic {
+    font-size: 18px;
+}
+
+.catin {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    padding: 20px;
+    align-items: center;
+}
+
+.libroban {
+    background-size: cover;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-left: 200px;
+    padding-top: 20px;
+    z-index: 2;
+}
+.elipse1 {
+    position: absolute;
+    top: 230px;
+    left: 800px;
+    width: 300px;
+    height: 200px;
+    background-color: #7DBA84;
+    border-radius: 90%;
+    border-bottom-right-radius: 90%;
+    border-top-right-radius: 160%;
+    z-index: 1;
+    opacity: 0.5;
+    transform: rotate(40deg)
+}
+.elipse2 {
+    position: absolute;
+    top: 200px;
+    left: 790px;
+    width: 300px;
+    height: 230px;
+    background-color: #F4D35E;
+    border-radius: 80%;
+    border-bottom-right-radius: 160%;
+    border-top-right-radius: 90%;
+    z-index: 0;
+    transform: rotate(140deg)
+}

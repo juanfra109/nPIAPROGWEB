@@ -33,6 +33,14 @@
       "PackagePath": "staticwebassets\\images\\fondoinic.png"
     },
     {
+      "Id": "C:\\Users\\Juan Francisco\\Source\\Repos\\PIAPROGWEB\\PIA\\PIA\\wwwroot\\images\\itlibro.jpg",
+      "PackagePath": "staticwebassets\\images\\itlibro.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Juan Francisco\\Source\\Repos\\PIAPROGWEB\\PIA\\PIA\\wwwroot\\images\\itlibro.jpg.crdownload",
+      "PackagePath": "staticwebassets\\images\\itlibro.jpg.crdownload"
+    },
+    {
       "Id": "C:\\Users\\Juan Francisco\\Source\\Repos\\PIAPROGWEB\\PIA\\PIA\\wwwroot\\js\\Index.LibroCatalogo.js",
       "PackagePath": "staticwebassets\\js\\Index.LibroCatalogo.js"
     },

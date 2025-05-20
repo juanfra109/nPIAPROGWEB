@@ -23,3 +23,9 @@
         });
     });
 });
+const noLayout = document.querySelector('tittle[data-no-layout]'):
+if (noLayout && noLayout.dataset.noLayout === "true") {
+    console.log("No layout");
+} else {
+    console.log("Layout");
+}

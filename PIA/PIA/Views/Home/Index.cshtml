@@ -1,12 +1,157 @@
 ﻿@model PIA.Models.dbModels.Sugerencia
 
-
 @{
-    ViewData["Title"] = "Home Page";
+    Layout = null;
 }
 
+
+    @using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title data-no-layout="true">Home Page - ReadPoint</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/PIA.styles.css" asp-append-version="true" />
+
+    <style>
+        .navbar-brand span {
+            font-family: 'Pacifico', cursive;
+            font-size: 24px;
+            color: #137547;
+        }
+
+        .navbar-custom {
+            background-color: white;
+            border-bottom: 2px solid #ccc;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar-brand img {
+            width: 60px;
+            padding: 5px;
+            margin-right: 10px;
+            margin-left: 25px;
+        }
+
+        .nav-link {
+            color: #137547 !important;
+            font-weight: 500;
+        }
+
+        .nav-link:hover {
+            color: #0a4e2c !important;
+        }
+
+        .btn-login {
+            background-color: #1f1f1f;
+            color: white;
+            font-weight: bold;
+            border-radius: 8px;
+            padding: 8px 15px;
+            text-decoration: none;
+            margin-right: 30px;
+        }
+
+        .btn-login:hover {
+            background-color: #333333;
+            color: white;
+        }
+
+        .btn-login i {
+            margin-right: 5px;
+        }
+
+        .navbar-nav {
+            gap: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-custom py-3">
+            <div class="container-fluid">
+                <a class="navbar-brand d-flex align-items-center" asp-controller="Home" asp-action="Index">
+                    <img src="~/images/book-icon.svg" alt="Logo" />
+                    <span class="fw-bold text-success fs-4">ReadPoint</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-between" id="navbarContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0 d-flex align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Home" asp-action="About">Sobre nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="LibroCatalogo" asp-action="Index">Catálogo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Home" asp-action="Contact">Contact Us</a>
+                        </li>
+                    </ul>
+
+                    <!-- Sección de usuario -->
+                    <ul class="navbar-nav">
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Admin">Admin</a>
+                            </li>
+
+                        }else{}
+                        @if (SignInManager.IsSignedIn(User))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-controller="Carritoes" asp-action="Index">
+                                    <i class="fas fa-shopping-cart carrito" asp-controller="Carritoes" asp-action="Index"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage"><i class="fas fa-user-circle carrito"></i>  Hola, @User.Identity?.Name!</a>
+                            </li>
+                           
+                            
+                            
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="btn btn-login d-flex align-items-center" asp-area="Identity" asp-page="/Account/Login">
+                                    <i class="fas fa-user-circle"></i> Iniciar Sesión
+                                </a>
+                            </li>
+                        }
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
 <section class="banner">
-    <div id="inicfon" class="container">
+        <div id="inicfon" class="container" style="
+    margin-left: 0px;
+    padding-left: 50px;
+    margin-right: 0px;
+    padding-right: 0px;
+">
         <div class="row align-items-start">
             <div class="col">
                 <h2 id="h2inban">¡Descubre tu próxima<br />gran lectura!</h2>
@@ -14,18 +159,32 @@
 
                 <a class="btn btn-success" asp-controller="LibroCatalogo" asp-action="Index">Ver Catálogo</a>
             </div>
-            <div class="col">img</div>
+            <div class="col">
+                <div class="contenedor">
+                        <img src="~/images/itlibro.jpg" class="libroban">
+                        <div class="elipse1"></div>
+                        <div class="elipse2"></div>
+                </div>
+            </div>
         </div>
         
     </div>
 
 </section>
+
+
     <main >
     
         <article class="maininic">
-            <h2>¿Quienes somos?</h2>
-            <p>Somos Libreria Rai, tu proximo lugar favorito para comprar libros.</p>
-            <p>En Libreria Rai nos especializamos en la atención a nuestros clientes y ayudarlos a encontrar lo que buscan</p>
+            <h2 id="h2inic">Los Favoritos de nuestros lectores</h2>
+            <hr class="lineainic" />
+            <p id="pinic">Descubre qué lecturas han conquistado a nuestra comunidad.</p>
+            <div class="container catin">
+                <div> libro 1</div>
+                <div> libro 2</div>
+                <div> libro 3</div>
+
+            </div>
         </article>
     </main>
     <footer class="footerini">
@@ -51,5 +210,15 @@
     </footer>
 
     
+    <footer class="bg-dark text-light text-center py-3">
+        <div class="container d-flex justify-content-between">
+            <span>&copy; @DateTime.Now.Year ReadPoint</span>
+            <a class="text-light text-decoration-underline" asp-controller="Home" asp-action="Privacy" style="background-color: transparent;">Política de Privacidad</a>
+        </div>
+    </footer>
 
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>
 
