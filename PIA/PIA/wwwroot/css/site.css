@@ -260,8 +260,8 @@ body {
 }
 
 .lineainic {
-    color: yellow;
-    border: 1.5px;
+    color: #FFE500;
+    border: 2px;
     border-style: solid;
 }
 
@@ -508,4 +508,10 @@ div.center {
 }
 .txtlos {
     margin-top: 28px;
+}
+.btnadmn {
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 30px;
+    margin-top: 10px;
 }

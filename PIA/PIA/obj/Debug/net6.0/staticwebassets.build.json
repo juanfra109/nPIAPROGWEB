@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pZJumjBC1vxPjGnbAsxs7RwzVLIDjd3y+8z9qHrwAf8=",
+  "Hash": "+ips4JtUdGzb6s8ID3JVzQTGk6ZNhsBp2ZrwdhG31yk=",
   "Source": "PIA",
   "BasePath": "_content/PIA",
   "Mode": "Default",
@@ -1375,8 +1375,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "kyqvezrik4",
-      "Integrity": "xPtS/dUS5UKYdO6zeOd7a7XkGIy/Uu+Y6A7s8w6NZgI=",
+      "Fingerprint": "2nvd4mfgjr",
+      "Integrity": "bm0P8S3nIPJ4+TsO1jXjGRiwrkeMTqE4ndxOYYCkYPQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -2955,6 +2955,51 @@
       ]
     },
     {
+      "Route": "css/site.2nvd4mfgjr.css",
+      "AssetFile": "C:\\Users\\Juan Francisco\\Source\\Repos\\nPIACIENF\\PIA\\PIA\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8216"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bm0P8S3nIPJ4+TsO1jXjGRiwrkeMTqE4ndxOYYCkYPQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 21 May 2025 11:12:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2nvd4mfgjr"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bm0P8S3nIPJ4+TsO1jXjGRiwrkeMTqE4ndxOYYCkYPQ="
+        }
+      ]
+    },
+    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\Juan Francisco\\Source\\Repos\\nPIACIENF\\PIA\\PIA\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -2965,7 +3010,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8099"
+          "Value": "8216"
         },
         {
           "Name": "Content-Type",
@@ -2973,11 +3018,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xPtS/dUS5UKYdO6zeOd7a7XkGIy/Uu+Y6A7s8w6NZgI=\""
+          "Value": "\"bm0P8S3nIPJ4+TsO1jXjGRiwrkeMTqE4ndxOYYCkYPQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 21 May 2025 10:38:41 GMT"
+          "Value": "Wed, 21 May 2025 11:12:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2987,52 +3032,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-xPtS/dUS5UKYdO6zeOd7a7XkGIy/Uu+Y6A7s8w6NZgI="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.kyqvezrik4.css",
-      "AssetFile": "C:\\Users\\Juan Francisco\\Source\\Repos\\nPIACIENF\\PIA\\PIA\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "8099"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"xPtS/dUS5UKYdO6zeOd7a7XkGIy/Uu+Y6A7s8w6NZgI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 21 May 2025 10:38:41 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "kyqvezrik4"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-xPtS/dUS5UKYdO6zeOd7a7XkGIy/Uu+Y6A7s8w6NZgI="
+          "Value": "sha256-bm0P8S3nIPJ4+TsO1jXjGRiwrkeMTqE4ndxOYYCkYPQ="
         }
       ]
     },

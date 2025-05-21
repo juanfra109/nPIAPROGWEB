@@ -3,45 +3,50 @@
     ViewData["Title"] = "Admins";
 }
 
-<h1>Pagina de Admin</h1>
+<h1 class="text-success">Tablas de registros</h1>
+<hr class="lineainic" />
+
 
 <main>
-    <article class="secadm">
-        <h2>Ver todos los Usuarios</h2>
-        <button onclick="usuarios()">usuarios</button>
-    </article>
-    <article class="secadm">
-        <h2>Agregar Editoriales</h2>
-        <button onclick="editoriales()">Editoriales</button>
-    </article>
-    <article class="secadm">
-        <h2>Agregar Categorias</h2>
-        <button onclick="categorias()">Categorias</button>
-    </article>
-    <article class="secadm">
-        <h2>Agregar Autores</h2>
-        <button onclick="autor()">Autores</button>
-    </article>
-    <article class="secadm">
-        <h2>Agregar Libro</h2>
-        <button onclick="libros()">Libros</button>
-    </article>
-    <article class="secadm">
-        <h2>Agregar Metodo de pago</h2>
-        <button onclick="Metodpag()">Editoriales</button>
-    </article>
-    <article class="secadm">
-        <h2>Ver Ordenes</h2>
-        <button onclick="ordenes()">Ordenes</button>
-    </article>
-    <article class="secadm">
-        <h2>Ver Solicitudes</h2>
-        <button onclick="solicitudes()">Solicitudes</button>
-    </article>
-    <article class="secadm">
-        <h2>Ver Sugerencias</h2>
-        <button onclick="sugerencias()">Sugerencias</button>
-    </article>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <button type="button" class="btn btn-outline-success btnadmn" onclick="usuarios()">Usuarios</button>
+            </div>
+            <div class="col-sm">
+                <button type="button" class="btn btn-outline-success btnadmn" onclick="editoriales()">Editoriales</button>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <button type="button" class="btn btn-outline-success btnadmn" onclick="categorias()">Categorias</button>
+            </div>
+            <div class="col-sm">
+                <button type="button" class="btn btn-outline-success btnadmn" onclick="autor()">Autores</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <button type="button" class="btn btn-outline-success btnadmn" onclick="libros()">Libros</button>
+            </div>
+            <div class="col-sm">
+                <button type="button" class="btn btn-outline-success btnadmn" onclick="Metodpag()">Metodos de Pago</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <button type="button" class="btn btn-outline-success btnadmn" onclick="ordenes()">Ordenes</button>
+            </div>
+            <div class="col-sm">
+                <button type="button" class="btn btn-outline-success btnadmn" onclick="sugerencias()">Sugerencias</button>
+            </div>
+        </div>
+    </div>
+    <br />
+    <br />
+    <br />
+
 </main>
 
 
@@ -66,9 +71,7 @@
     function ordenes() {
         location.href = link + '/Ordens/Admin'
     }
-    function solicitudes() {
-        location.href = link + '/Solicitudes'
-    }
+
     function sugerencias() {
         location.href = link + '/Sugerencias'
     }
