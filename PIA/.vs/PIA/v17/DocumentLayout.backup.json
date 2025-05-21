@@ -3,16 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\Juan Francisco\\source\\repos\\nPIACIENF\\PIA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|c:\\users\\juan francisco\\source\\repos\\npiacienf\\pia\\pia\\views\\home\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|solutionrelative:pia\\views\\home\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|c:\\users\\juan francisco\\source\\repos\\npiacienf\\pia\\pia\\areas\\identity\\pages\\account\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|solutionrelative:pia\\areas\\identity\\pages\\account\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|c:\\users\\juan francisco\\source\\repos\\npiacienf\\pia\\pia\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|solutionrelative:pia\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|c:\\users\\juan francisco\\source\\repos\\npiacienf\\pia\\pia\\areas\\identity\\pages\\account\\manage\\generaterecoverycodes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|solutionrelative:pia\\areas\\identity\\pages\\account\\manage\\generaterecoverycodes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|c:\\users\\juan francisco\\source\\repos\\npiacienf\\pia\\pia\\areas\\identity\\pages\\account\\manage\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|solutionrelative:pia\\areas\\identity\\pages\\account\\manage\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|c:\\users\\juan francisco\\source\\repos\\npiacienf\\pia\\pia\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|solutionrelative:pia\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|c:\\users\\juan francisco\\source\\repos\\npiacienf\\pia\\pia\\views\\applicationusers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|solutionrelative:pia\\views\\applicationusers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|c:\\users\\juan francisco\\source\\repos\\npiacienf\\pia\\pia\\areas\\identity\\pages\\account\\manage\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|solutionrelative:pia\\areas\\identity\\pages\\account\\manage\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|c:\\users\\juan francisco\\source\\repos\\npiacienf\\pia\\pia\\areas\\identity\\pages\\account\\manage\\_managenav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|solutionrelative:pia\\areas\\identity\\pages\\account\\manage\\_managenav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|c:\\users\\juan francisco\\source\\repos\\npiacienf\\pia\\pia\\areas\\identity\\pages\\account\\manage\\personaldata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|solutionrelative:pia\\areas\\identity\\pages\\account\\manage\\personaldata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|c:\\users\\juan francisco\\source\\repos\\npiacienf\\pia\\pia\\areas\\identity\\pages\\account\\_statusmessage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|solutionrelative:pia\\areas\\identity\\pages\\account\\_statusmessage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|c:\\users\\juan francisco\\source\\repos\\npiacienf\\pia\\pia\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|solutionrelative:pia\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|c:\\users\\juan francisco\\source\\repos\\npiacienf\\pia\\pia\\views\\home\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|solutionrelative:pia\\views\\home\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|c:\\users\\juan francisco\\source\\repos\\npiacienf\\pia\\pia\\views\\librocatalogo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -65,10 +101,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|c:\\users\\juan francisco\\source\\repos\\npiacienf\\pia\\pia\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|solutionrelative:pia\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|c:\\users\\juan francisco\\source\\repos\\npiacienf\\pia\\pia\\areas\\identity\\pages\\account\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3516E1E8-624E-4126-9C70-3BA0FFF8C30C}|PIA\\PIA.csproj|solutionrelative:pia\\areas\\identity\\pages\\account\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,24 +110,25 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Juan Francisco\\source\\repos\\nPIACIENF\\PIA\\PIA\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
               "RelativeDocumentMoniker": "PIA\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Juan Francisco\\source\\repos\\nPIACIENF\\PIA\\PIA\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
-              "RelativeToolTip": "PIA\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAAXAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Juan Francisco\\source\\repos\\nPIACIENF\\PIA\\PIA\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml*",
+              "RelativeToolTip": "PIA\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-19T04:52:34.823Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 21,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\Juan Francisco\\source\\repos\\nPIACIENF\\PIA\\PIA\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "PIA\\Views\\Shared\\_LoginPartial.cshtml",
@@ -108,15 +141,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Admin.cshtml",
-              "DocumentMoniker": "C:\\Users\\Juan Francisco\\source\\repos\\nPIACIENF\\PIA\\PIA\\Views\\Home\\Admin.cshtml",
-              "RelativeDocumentMoniker": "PIA\\Views\\Home\\Admin.cshtml",
-              "ToolTip": "C:\\Users\\Juan Francisco\\source\\repos\\nPIACIENF\\PIA\\PIA\\Views\\Home\\Admin.cshtml*",
-              "RelativeToolTip": "PIA\\Views\\Home\\Admin.cshtml*",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAACkAAAA9AAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "GenerateRecoveryCodes.cshtml",
+              "DocumentMoniker": "C:\\Users\\Juan Francisco\\source\\repos\\nPIACIENF\\PIA\\PIA\\Areas\\Identity\\Pages\\Account\\Manage\\GenerateRecoveryCodes.cshtml",
+              "RelativeDocumentMoniker": "PIA\\Areas\\Identity\\Pages\\Account\\Manage\\GenerateRecoveryCodes.cshtml",
+              "ToolTip": "C:\\Users\\Juan Francisco\\source\\repos\\nPIACIENF\\PIA\\PIA\\Areas\\Identity\\Pages\\Account\\Manage\\GenerateRecoveryCodes.cshtml",
+              "RelativeToolTip": "PIA\\Areas\\Identity\\Pages\\Account\\Manage\\GenerateRecoveryCodes.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-05T04:58:04.05Z",
+              "WhenOpened": "2025-05-21T12:57:48.512Z",
               "EditorCaption": ""
             },
             {
@@ -127,27 +160,131 @@
               "RelativeDocumentMoniker": "PIA\\wwwroot\\css\\site.css",
               "ToolTip": "C:\\Users\\Juan Francisco\\source\\repos\\nPIACIENF\\PIA\\PIA\\wwwroot\\css\\site.css",
               "RelativeToolTip": "PIA\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAO8BAAAAAAAAAAAAAAICAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAA8CAAAAAAAAAAAswBkCAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-05-17T22:01:07.379Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Francisco\\source\\repos\\nPIACIENF\\PIA\\PIA\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "PIA\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\Juan Francisco\\source\\repos\\nPIACIENF\\PIA\\PIA\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "RelativeToolTip": "PIA\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAwwIsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T11:42:16.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Juan Francisco\\source\\repos\\nPIACIENF\\PIA\\PIA\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "PIA\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\Juan Francisco\\source\\repos\\nPIACIENF\\PIA\\PIA\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "PIA\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAALIAAAAAAAAAAAAAAMEAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAALgAAAAAAAAAAAAAAMMAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-16T09:54:51.592Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Juan Francisco\\source\\repos\\nPIACIENF\\PIA\\PIA\\Views\\ApplicationUsers\\Edit.cshtml",
+              "RelativeDocumentMoniker": "PIA\\Views\\ApplicationUsers\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Juan Francisco\\source\\repos\\nPIACIENF\\PIA\\PIA\\Views\\ApplicationUsers\\Edit.cshtml",
+              "RelativeToolTip": "PIA\\Views\\ApplicationUsers\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-21T11:50:00.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ManageNav.cshtml",
+              "DocumentMoniker": "C:\\Users\\Juan Francisco\\source\\repos\\nPIACIENF\\PIA\\PIA\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "RelativeDocumentMoniker": "PIA\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "ToolTip": "C:\\Users\\Juan Francisco\\source\\repos\\nPIACIENF\\PIA\\PIA\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "RelativeToolTip": "PIA\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-21T11:41:17.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PersonalData.cshtml",
+              "DocumentMoniker": "C:\\Users\\Juan Francisco\\source\\repos\\nPIACIENF\\PIA\\PIA\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
+              "RelativeDocumentMoniker": "PIA\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
+              "ToolTip": "C:\\Users\\Juan Francisco\\source\\repos\\nPIACIENF\\PIA\\PIA\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
+              "RelativeToolTip": "PIA\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-21T11:20:22.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Juan Francisco\\source\\repos\\nPIACIENF\\PIA\\PIA\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PIA\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Juan Francisco\\source\\repos\\nPIACIENF\\PIA\\PIA\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
+              "RelativeToolTip": "PIA\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-21T11:19:06.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_StatusMessage.cshtml",
+              "DocumentMoniker": "C:\\Users\\Juan Francisco\\source\\repos\\nPIACIENF\\PIA\\PIA\\Areas\\Identity\\Pages\\Account\\_StatusMessage.cshtml",
+              "RelativeDocumentMoniker": "PIA\\Areas\\Identity\\Pages\\Account\\_StatusMessage.cshtml",
+              "ToolTip": "C:\\Users\\Juan Francisco\\source\\repos\\nPIACIENF\\PIA\\PIA\\Areas\\Identity\\Pages\\Account\\_StatusMessage.cshtml",
+              "RelativeToolTip": "PIA\\Areas\\Identity\\Pages\\Account\\_StatusMessage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-21T11:18:34.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Juan Francisco\\source\\repos\\nPIACIENF\\PIA\\PIA\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "PIA\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Juan Francisco\\source\\repos\\nPIACIENF\\PIA\\PIA\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "PIA\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-21T11:18:23.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Admin.cshtml",
+              "DocumentMoniker": "C:\\Users\\Juan Francisco\\source\\repos\\nPIACIENF\\PIA\\PIA\\Views\\Home\\Admin.cshtml",
+              "RelativeDocumentMoniker": "PIA\\Views\\Home\\Admin.cshtml",
+              "ToolTip": "C:\\Users\\Juan Francisco\\source\\repos\\nPIACIENF\\PIA\\PIA\\Views\\Home\\Admin.cshtml",
+              "RelativeToolTip": "PIA\\Views\\Home\\Admin.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-05T04:58:04.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Juan Francisco\\source\\repos\\nPIACIENF\\PIA\\PIA\\Views\\LibroCatalogo\\Index.cshtml",
               "RelativeDocumentMoniker": "PIA\\Views\\LibroCatalogo\\Index.cshtml",
@@ -160,7 +297,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 13,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Juan Francisco\\source\\repos\\nPIACIENF\\PIA\\PIA\\Views\\LibroCatalogo\\Details.cshtml",
               "RelativeDocumentMoniker": "PIA\\Views\\LibroCatalogo\\Details.cshtml",
@@ -173,7 +310,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 14,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Juan Francisco\\source\\repos\\nPIACIENF\\PIA\\PIA\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "PIA\\Views\\Shared\\_Layout.cshtml",
@@ -190,7 +327,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 17,
               "Title": "LibroCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\Juan Francisco\\source\\repos\\nPIACIENF\\PIA\\PIA\\Dto\\LibroCreateDto.cs",
               "RelativeDocumentMoniker": "PIA\\Dto\\LibroCreateDto.cs",
@@ -202,7 +339,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 16,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Juan Francisco\\source\\repos\\nPIACIENF\\PIA\\PIA\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "PIA\\Controllers\\HomeController.cs",
@@ -214,7 +351,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 18,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Juan Francisco\\source\\repos\\nPIACIENF\\PIA\\PIA\\Views\\Libroes\\Edit.cshtml",
               "RelativeDocumentMoniker": "PIA\\Views\\Libroes\\Edit.cshtml",
@@ -226,7 +363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 15,
               "Title": "site.js",
               "DocumentMoniker": "C:\\Users\\Juan Francisco\\source\\repos\\nPIACIENF\\PIA\\PIA\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "PIA\\wwwroot\\js\\site.js",
@@ -239,7 +376,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 19,
               "Title": "login.css",
               "DocumentMoniker": "C:\\Users\\Juan Francisco\\source\\repos\\nPIACIENF\\PIA\\PIA\\wwwroot\\css\\login.css",
               "RelativeDocumentMoniker": "PIA\\wwwroot\\css\\login.css",
@@ -251,7 +388,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 20,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\Juan Francisco\\source\\repos\\nPIACIENF\\PIA\\PIA\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "PIA\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
@@ -263,7 +400,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 22,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Juan Francisco\\source\\repos\\nPIACIENF\\PIA\\PIA\\Program.cs",
               "RelativeDocumentMoniker": "PIA\\Program.cs",
@@ -275,7 +412,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 24,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\Juan Francisco\\source\\repos\\nPIACIENF\\PIA\\PIA\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "PIA\\Views\\_ViewStart.cshtml",
@@ -287,7 +424,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 23,
               "Title": "Index.LibroCatalogo.js",
               "DocumentMoniker": "C:\\Users\\Juan Francisco\\source\\repos\\nPIACIENF\\PIA\\PIA\\wwwroot\\js\\Index.LibroCatalogo.js",
               "RelativeDocumentMoniker": "PIA\\wwwroot\\js\\Index.LibroCatalogo.js",

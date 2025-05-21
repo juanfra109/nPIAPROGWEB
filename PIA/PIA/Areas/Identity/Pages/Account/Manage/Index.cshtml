@@ -1,36 +1,90 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Profile";
+    ViewData["Title"] = "Mi Perfil";
     ViewData["ActivePage"] = ManageNavPages.Index;
 }
 
-<h3>@ViewData["Title"]</h3>
-<partial name="_StatusMessage" for="StatusMessage" />
-<div class="row">
-    <div class="col-md-6">
-        <form id="profile-form" method="post">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-floating">
-                <input asp-for="Username" class="form-control" disabled />
-                <label asp-for="Username" class="form-label"></label>
-            </div>
-            <div class="form-floating">
-                <input asp-for="Input.PhoneNumber" class="form-control" />
-                <label asp-for="Input.PhoneNumber" class="form-label"></label>
-                <span asp-validation-for="Input.PhoneNumber" class="text-danger"></span>
-            </div>
-            <button id="update-profile-button" type="submit" class="w-100 btn btn-lg btn-primary">Save</button>
-        </form>
+<br />
+<div class="container">
+    <div class="row justify-content-between">
+        <div class="col-8">
+            <h3>@ViewData["Title"]</h3>
+        </div>
+        <div class="col-2">
+            <a class="nav-link text-dark" asp-controller="Ordens" asp-action="Index">Ver mis ordenes</a>
+        </div>
+        <div class="col-2">
+            <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout"
+                  asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                <button type="submit" class="btn btn-danger " id="colorlg">Logout</button>
+            </form>
+        </div>
     </div>
-
-    
 </div>
-    <a class="nav-link text-dark" asp-controller="Ordens" asp-action="Index">Ver mis ordenes</a>
-    <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout"
-          asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
-        <button type="submit" class="nav-link btn btn-danger text-light">Logout</button>
-    </form>
+<partial name="_StatusMessage" for="StatusMessage" />
+<div class="centrarform">
+    <div class="row justify-content-center miperf">
+        <p class="pactperf">Actualiza tu Perfil</p>
+
+        <div class="col-md-6 divformmp">
+            <form id="profile-form" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-floating ">
+                    <input asp-for="Username" class="form-control campmp" disabled />
+                    <label asp-for="Username" class="form-label"></label>
+                </div>
+                <div class="form-floating ">
+                    <input asp-for="Input.Nombre" class="form-control campmp" />
+                    <label asp-for="Input.Nombre" class="form-label"></label>
+                    <span asp-validation-for="Input.Nombre" class="text-danger"></span>
+                </div>
+                <div class="form-floating ">
+                    <input asp-for="Input.Calle" class="form-control campmp" />
+                    <label asp-for="Input.Calle" class="form-label"></label>
+                    <span asp-validation-for="Input.Calle" class="text-danger"></span>
+                </div>
+                <div class="form-floating ">
+                    <input asp-for="Input.Estado" class="form-control campmp" />
+                    <label asp-for="Input.Estado" class="form-label"></label>
+                    <span asp-validation-for="Input.Estado" class="text-danger"></span>
+                </div>
+                <div class="form-floating ">
+                    <input asp-for="Input.Ciudad" class="form-control campmp" />
+                    <label asp-for="Input.Ciudad" class="form-label"></label>
+                    <span asp-validation-for="Input.Ciudad" class="text-danger"></span>
+                </div>
+                <div class="form-floating ">
+                    <input asp-for="Input.NumeroExt" class="form-control campmp" />
+                    <label asp-for="Input.NumeroExt" class="form-label"></label>
+                    <span asp-validation-for="Input.NumeroExt" class="text-danger"></span>
+                </div>
+                <div class="form-floating ">
+                    <input asp-for="Input.Pais" class="form-control campmp" />
+                    <label asp-for="Input.Pais" class="form-label"></label>
+                    <span asp-validation-for="Input.Pais" class="text-danger"></span>
+                </div>
+                <div class="form-floating ">
+                    <input asp-for="Input.Codpos" class="form-control campmp" />
+                    <label asp-for="Input.Codpos" class="form-label"></label>
+                    <span asp-validation-for="Input.Codpos" class="text-danger"></span>
+                </div>
+
+                <div class="form-floating ">
+                    <input asp-for="Input.PhoneNumber" class="form-control campmp" />
+                    <label asp-for="Input.PhoneNumber" class="form-label"></label>
+                    <span asp-validation-for="Input.PhoneNumber" class="text-danger"></span>
+                </div>
+                <div class="bonact">
+                    <button id="update-profile-button" type="submit" class="btn btn-lg btn-primary botonact">Actualizar</button>
+                </div>
+            </form>
+        </div>
+
+
+    </div>
+</div>
+   
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />

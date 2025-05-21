@@ -25,51 +25,58 @@ namespace PIA.Areas.Identity.Pages.Account.Manage
             _signInManager = signInManager;
         }
 
-        /// <summary>
-        ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
-        ///     directly from your code. This API may change or be removed in future releases.
-        /// </summary>
         public string Username { get; set; }
 
-        /// <summary>
-        ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
-        ///     directly from your code. This API may change or be removed in future releases.
-        /// </summary>
         [TempData]
         public string StatusMessage { get; set; }
 
-        /// <summary>
-        ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
-        ///     directly from your code. This API may change or be removed in future releases.
-        /// </summary>
         [BindProperty]
         public InputModel Input { get; set; }
 
-        /// <summary>
-        ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
-        ///     directly from your code. This API may change or be removed in future releases.
-        /// </summary>
         public class InputModel
         {
-            /// <summary>
-            ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
-            ///     directly from your code. This API may change or be removed in future releases.
-            /// </summary>
             [Phone]
             [Display(Name = "Phone number")]
             public string PhoneNumber { get; set; }
+
+            [Display(Name = "Nombre")]
+            public string Nombre { get; set; }
+
+            [Display(Name = "Calle")]
+            public string Calle { get; set; }
+
+            [Display(Name = "Estado")]
+            public string Estado { get; set; }
+
+            [Display(Name = "Ciudad")]
+            public string Ciudad { get; set; }
+
+            [Display(Name = "Número Exterior")]
+            public string NumeroExt { get; set; }
+
+            [Display(Name = "País")]
+            public string Pais { get; set; }
+
+            [Display(Name = "Código Postal")]
+            public string Codpos { get; set; }
         }
 
         private async Task LoadAsync(ApplicationUser user)
         {
             var userName = await _userManager.GetUserNameAsync(user);
-            var phoneNumber = await _userManager.GetPhoneNumberAsync(user);
 
             Username = userName;
 
             Input = new InputModel
             {
-                PhoneNumber = phoneNumber
+                PhoneNumber = user.PhoneNumber,
+                Nombre = user.Nombre,
+                Calle = user.Calle,
+                Estado = user.Estado,
+                Ciudad = user.Ciudad,
+                NumeroExt = user.NumeroExt,
+                Pais = user.Pais,
+                Codpos = user.Codpos
             };
         }
 
@@ -99,8 +106,7 @@ namespace PIA.Areas.Identity.Pages.Account.Manage
                 return Page();
             }
 
-            var phoneNumber = await _userManager.GetPhoneNumberAsync(user);
-            if (Input.PhoneNumber != phoneNumber)
+            if (Input.PhoneNumber != user.PhoneNumber)
             {
                 var setPhoneResult = await _userManager.SetPhoneNumberAsync(user, Input.PhoneNumber);
                 if (!setPhoneResult.Succeeded)
@@ -108,6 +114,22 @@ namespace PIA.Areas.Identity.Pages.Account.Manage
                     StatusMessage = "Unexpected error when trying to set phone number.";
                     return RedirectToPage();
                 }
+            }
+
+            // Actualizar los demás campos directamente
+            user.Nombre = Input.Nombre;
+            user.Calle = Input.Calle;
+            user.Estado = Input.Estado;
+            user.Ciudad = Input.Ciudad;
+            user.NumeroExt = Input.NumeroExt;
+            user.Pais = Input.Pais;
+            user.Codpos = Input.Codpos;
+
+            var updateResult = await _userManager.UpdateAsync(user);
+            if (!updateResult.Succeeded)
+            {
+                StatusMessage = "Unexpected error when updating user profile.";
+                return RedirectToPage();
             }
 
             await _signInManager.RefreshSignInAsync(user);
