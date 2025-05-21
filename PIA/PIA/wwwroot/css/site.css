@@ -497,3 +497,15 @@ div.center {
 .detallimct{
     max-height: 400px;
 }
+.dvimgfv {
+    align-self: center;
+    max-width: 200px;
+    margin: 0 auto;
+}
+.imgfv {
+    max-height: 340px;
+    padding-bottom: 25px;
+}
+.txtlos {
+    margin-top: 28px;
+}
