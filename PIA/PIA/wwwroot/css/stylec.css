@@ -1,0 +1,57 @@
+.sectiont{
+    font-size: 40px;
+    color: #289252;
+}
+
+.border-yellow{
+    border-bottom: 3px solid #F4D35E;
+}
+
+.card{
+    border: 0px;
+}
+
+h5{
+   font-size: 18px; 
+   color: #272629;
+}
+
+.author , .topacity{
+    font-size: 14px;
+    color: #4950579d;
+}
+
+.price{
+    font-size: 20px;
+    color: #3E885B;
+}
+
+.btn-details{
+    border: 1px solid #41AB6B;
+}
+
+.btn-details:hover{
+    background-color: #41AB6B;
+    color: #FBFDFC;
+}
+
+.carttext{
+    font-size: 14px;
+    background-color: #D6EDDF;
+    color: #41AB6B;
+}
+
+.bgreen{
+    border: 1px solid #41AB6B;
+    border-radius: 5px;
+}
+
+.cart{
+    background-color: #e5e7e665;
+    color: #6F7471;
+}
+
+.cart:hover{
+    background-color: #41AB6B;
+    color: #FBFDFC;
+}
