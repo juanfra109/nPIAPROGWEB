@@ -7,40 +7,73 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Detalle  @Html.DisplayFor(model => model.Nombre)</h1>
+<div class="container my-4">
+    <main role="main" class="pb-3">
+        <div class="row g-0 overflow-hidden flex-md-row mb-4 h-md-250 position-relative">
+            <div class="col-auto d-lg-block mx-auto">
+                <img class="book-image p-4 detallimct" src=" @Html.DisplayFor(model => model.Imagen)" align="right"><br />
+            </div>
+            <div class="col p-4 d-flex flex-column position-relative">
+                <h1 class="lexend-bold book-title border-yellow pb-3">@Html.DisplayFor(model => model.Nombre)</h1>
+                <div class="container mt-2 p-0">
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                        <div class="col">
+                            <h3 class="book-details-title lexend-semibold">Autor:</h3>
+                            <h6 class="detail-info lexend-regular text-break">@Html.DisplayFor(model =>model.AutorNavigation.Nombre)</h6>
+                        </div>
+                        <div class="col">
+                            <h3 class="book-details-title lexend-semibold">Editorial:</h3>
+                            <h6 class="detail-info lexend-regular text-break">@Html.DisplayFor(model =>model.EditorialNavigation.Nombre)</h6>
+                        </div>
+                        <div class="col">
+                            <h3 class="book-details-title lexend-semibold">Año:</h3>
+                            <h6 class="detail-info lexend-regular text-break">@Html.DisplayFor(model =>model.Añopublicacion)</h6>
+                        </div>
+                    </div>
+                </div>
 
-<main class="productodetalle">
-    <article>
-        <h3> @Html.DisplayFor(model => model.Nombre)</h3><hr>
+                <p class="card-text my-4 lexend-regular">@Html.DisplayFor(model => model.Descripcion)</p>
+                <div class="container p-0">
+                    <div class="row row-cols-1 row-cols-sm-2 g-4">
+                        <div class="col d-flex flex-column gap-2">
+                            <p class="lexend-semibold d-price text-break">$@Html.DisplayFor(model =>model.Precio) MXM</p>
+                        </div>
+                        <div class="col d-flex flex-column gap-2">
+                            @if (SignInManager.IsSignedIn(User))
+                            {
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text carttext bgreen lexend-medium"
+                                          id="basic-addon1">Cantidad</span>
+                                    <input type="number" class="form-control cantidad topacity bgreen lexend-regular"
+                                           min="1" data-id=@Model.IdLibro placeholder="1" value="1">
+                                    <button class="productoag cart bgreen px-3" data-id=@Model.IdLibro>
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                    </button>
+                                </div>
 
-    </article>
-    <aside>
-        <img class="imagenprod" src=" @Html.DisplayFor(model => model.Imagen)" align="right"><br />
+                            }
+                            else
+                            {
+                                <strong class="lexend-semibold">Ingrese a su cuenta para agregar algo a su carrito</strong>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-    </aside>
-    <header>
-        <h6>Año:  @Html.DisplayFor(model => model.Añopublicacion)</h6><br />
-        <h6>Precio: $ @Html.DisplayFor(model => model.Precio)</h6><br />
-        <h6>Autor:  @Html.DisplayFor(model => model.AutorNavigation.Nombre)</h6><br />
-        <h6>Editorial:  @Html.DisplayFor(model => model.EditorialNavigation.Nombre)</h6><br />
-        <h6>Categoría:  @Html.DisplayFor(model => model.CategoriaNavigation.Descripción)</h6><br /><hr>
-    </header>
-    <p> @Html.DisplayFor(model => model.Descripcion)</p>
-    <br />
-    @if (SignInManager.IsSignedIn(User))
-    {
-        <div class="input-group mb-3">
-            <span class="input-group-text" id="basic-addon1">Cantidad</span>
-            <input type="number" class="form-control cantidad" min="1" data-id=@Model.IdLibro placeholder="1" value="1">
-            <button class="productoag" data-id=@Model.IdLibro><i class="fa-solid fa-cart-shopping"></i>Agregar a Carrito</button>
         </div>
-    }
-    else
-    {
-        <strong>Ingrese a su cuenta para agregar algo a su carrito</strong>
-    }
+
+
+
+
+
+
+
+
+
+
 </main>
+</div>
 <div>
-    <br />
     <a asp-action="Index"><button class="btn btn-dark">Regreso a Catalogo</button></a>
 </div>

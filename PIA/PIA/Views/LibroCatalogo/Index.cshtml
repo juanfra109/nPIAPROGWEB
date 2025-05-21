@@ -7,44 +7,60 @@
     ViewData["Title"] = "Catalogo";
 }
 
-<h1>Nuestro catalogo</h1>
+<div class="container my-4">
+    <main role="main" class="pb-3">
+        <h1 class="lexend-semibold sectiont border-yellow pb-3">Nuestro catálogo</h1>
 
+        <div class="pt-3 container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
 
-@foreach (var item in Model) {
-            
-            <div class="card text-dark bg-light mb-3">
-                <article class="header">
-                    <h3 class="header">@Html.DisplayFor(modelItem => item.Nombre)</h3><hr>
-                </article>
-                <div class="card-body">
-                    <main>
-                        <aside>
-                            <img class="imagenprod" src="@Html.DisplayFor(modelItem => item.Imagen)" align="right"><br />
-
-                        </aside>
-                        <header>
-                            <h5>Precio: $@Html.DisplayFor(modelItem => item.Precio)</h5><br />
-                            <h6>Autor: @Html.DisplayFor(modelItem => item.AutorNavigation.Nombre)</h6><br />
-                        </header>
-                        <a asp-action="Details" asp-route-id="@item.IdLibro"><button class="btn btn-primary">Details</button></a>
-                        <hr />
-                @if (SignInManager.IsSignedIn(User))
+                @foreach (var item in Model)
                 {
-                    <div class="input-group mb-3">
-                        <span class="input-group-text" id="basic-addon1">Cantidad</span>
-                        <input type="number" class="form-control cantidad" min="1" data-id=@item.IdLibro placeholder="1" value="1" >
-                        <button class="productoag" data-id=@item.IdLibro><i class="fa-solid fa-cart-shopping"></i>Agregar a Carrito</button>
+                    <div class="col">
+                            <div class="card shadow">
+                                <div class="imagencat">
+                                <img src="@Html.DisplayFor(modelItem => item.Imagen)" class="card-img-top imagencat2" alt="Portada Libro">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="lexend-semibold">@Html.DisplayFor(modelItem => item.Nombre)</h5>
+                                    <p class="card-text author lexend-regular">@Html.DisplayFor(modelItem => item.AutorNavigation.Nombre)</p>
+                                    <p class="lexend-semibold price">$@Html.DisplayFor(modelItem => item.Precio) MXM</p>
+
+                                    <div class="d-grid gap-2 mx-auto mb-3">
+                                        <a asp-action="Details" asp-route-id="@item.IdLibro">
+                                            <button class="btn btn-details lexend-medium px-4 shadow-sm">Ver detalles</button>
+                                        </a>
+                                    </div>
+                                    @if (SignInManager.IsSignedIn(User))
+                                    {
+                                        <div class="input-group mb-3">
+                                            <span class="input-group-text carttext bgreen lexend-medium" id="basic-addon1">Cantidad</span>
+                                            <input type="number" class="form-control cantidad topacity bgreen lexend-regular" min="1" data-id=@item.IdLibro
+                                                    placeholder="1" value="1">
+                                            <button class="productoag cart bgreen px-3" data-id=@item.IdLibro>
+                                                <i class="fa-solid fa-cart-shopping"></i>
+                                            </button>
+                                        </div>
+                                    }
+                                    else
+                                    {
+                                        <strong class="lexend-semibold">Ingrese a su cuenta para agregar algo a su carrito</strong>
+                                    }
+
+                                </div>
+                             </div>
                     </div>
+
+
                 }
-                else{
-                    <strong>Ingrese a su cuenta para agregar algo a su carrito</strong>
-                }
-                        <br/><br/>
-                    </main>
-                </div>
-            </div><br/>
-}
+            </div>
+            </div>
+        </main>
+    </div>
+
+
 
 @section Scripts {
     <script src="~/js/Index.LibroCatalogo.js" asp-append-version="true"></script>
 }
+

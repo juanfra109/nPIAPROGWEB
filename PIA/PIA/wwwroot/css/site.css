@@ -484,3 +484,16 @@ div.center {
     font-weight: 400;
     font-style: normal;
 }
+.imagencat {
+    max-width: 30%;
+    align-self: center;
+    margin-bottom: 20px;
+    margin-top:20px;
+}
+
+.imagencat2 {
+    max-height: 130px;
+}
+.detallimct{
+    max-height: 400px;
+}
