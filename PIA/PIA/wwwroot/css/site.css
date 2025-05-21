@@ -260,8 +260,8 @@ body {
 }
 
 .lineainic {
-    color: #FFE500;
-    border: 2px;
+    color: yellow;
+    border: 1.5px;
     border-style: solid;
 }
 
@@ -423,7 +423,7 @@ div.center {
 }
 
 .nav-link:hover {
-    color: #0a4e2c !important;
+    color: #41AB6B !important;
 }
 
 .btn-login {
@@ -483,72 +483,4 @@ div.center {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-}
-.imagencat {
-    max-width: 30%;
-    align-self: center;
-    margin-bottom: 20px;
-    margin-top:20px;
-}
-
-.imagencat2 {
-    max-height: 130px;
-}
-.detallimct{
-    max-height: 400px;
-}
-.dvimgfv {
-    align-self: center;
-    max-width: 200px;
-    margin: 0 auto;
-}
-.imgfv {
-    max-height: 340px;
-    padding-bottom: 25px;
-}
-.txtlos {
-    margin-top: 28px;
-}
-.btnadmn {
-    margin-bottom: 20px;
-    width: 100%;
-    font-size: 30px;
-    margin-top: 10px;
-}
-.campmp {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    width: 300px;
-}
-.miperf {
-    background-color: #F6F2FF;
-    width: 330px;
-    display: grid;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-.divformmp {
-    align-content: center;
-    align-items: center;
-    display: flex;
-}
-.centrarform {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-.botonact{
-    width: 150px;
-}
-.pactperf {
-    font-size: 20px;
-    font-weight: bold;
-    color: #1DB157;
-}
-.bonact {
-    text-align: center;
-    margin-top: 20px;
-}
-#colorlg{
-    color: white;
 }

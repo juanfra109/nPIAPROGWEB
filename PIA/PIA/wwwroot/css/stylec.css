@@ -35,7 +35,11 @@ h5{
     border: 1px solid #41AB6B;
 }
 
-.btn-details:hover{
+.btn-orden{
+    border: 1px solid #41AB6B;
+}
+
+.btn-details:hover , .btn-orden:hover {
     background-color: #41AB6B;
     color: #FBFDFC;
 }
@@ -89,4 +93,17 @@ h5{
     color: #14110F;
     font-size: 25px;
     border-bottom: 3px solid #E0E3E3;
+}
+
+.color-title{
+    color: #626364;
+}
+
+.c-title{
+    color: #626364;
+    font-size: 20px;
+}
+
+.t-body, .t-foot{
+    font-size: 14px;
 }
