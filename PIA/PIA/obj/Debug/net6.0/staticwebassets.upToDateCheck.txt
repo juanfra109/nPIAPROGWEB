@@ -1,6 +1,7 @@
 wwwroot\css\login.css
 wwwroot\css\register.css
 wwwroot\css\site.css
+wwwroot\css\stylec.css
 wwwroot\favicon.ico
 wwwroot\images\book-icon.svg
 wwwroot\images\fondoinic.png

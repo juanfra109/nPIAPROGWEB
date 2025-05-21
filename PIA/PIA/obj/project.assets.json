@@ -10505,11 +10505,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Juan Francisco\\Source\\Repos\\PIAPROGWEB\\PIA\\PIA\\PIA.csproj",
+      "projectUniqueName": "C:\\Users\\Juan Francisco\\Source\\Repos\\nPIACIENF\\PIA\\PIA\\PIA.csproj",
       "projectName": "PIA",
-      "projectPath": "C:\\Users\\Juan Francisco\\Source\\Repos\\PIAPROGWEB\\PIA\\PIA\\PIA.csproj",
+      "projectPath": "C:\\Users\\Juan Francisco\\Source\\Repos\\nPIACIENF\\PIA\\PIA\\PIA.csproj",
       "packagesPath": "C:\\Users\\Juan Francisco\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Juan Francisco\\Source\\Repos\\PIAPROGWEB\\PIA\\PIA\\obj\\",
+      "outputPath": "C:\\Users\\Juan Francisco\\Source\\Repos\\nPIACIENF\\PIA\\PIA\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
