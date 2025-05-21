@@ -26,6 +26,11 @@ h5{
     color: #3E885B;
 }
 
+.d-price{
+    font-size: 22px;
+    color: #3E885B;
+}
+
 .btn-details{
     border: 1px solid #41AB6B;
 }
@@ -54,4 +59,34 @@ h5{
 .cart:hover{
     background-color: #41AB6B;
     color: #FBFDFC;
+}
+
+.book-image{
+    height: 500px;
+    width: 400px;
+}
+
+.book-title{
+    font-size: 30px;
+    color: #289252;
+}
+
+.book-details-title{
+    font-size: 20px;
+    color: #C5C9CA;
+}
+
+.detail-info{
+    color: #3C3C3E;
+    font-size: 16px;
+}
+
+.card-text{
+    color: #14110F;
+}
+
+.details{
+    color: #14110F;
+    font-size: 25px;
+    border-bottom: 3px solid #E0E3E3;
 }
