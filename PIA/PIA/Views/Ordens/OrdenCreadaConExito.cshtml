@@ -4,36 +4,38 @@
     ViewData["Title"] = "Orden creada";
 }
 
-<h1>Orden creada!</h1>
+<h1 class="lexend-semibold sectiont">Orden creada!</h1>
 
-<p>La orden <strong>#@Model.Idorden</strong> ha sido creada con exito</p>
+            <p class="lexend-regular">La orden <strong>#@Model.Idorden</strong> ha sido creada con exito</p>
 
-<a asp-controller="Ordens" asp-action="Index"><button class="btn btn-primary">Ver mis ordenes</button></a>
+            <h2 class="lexend-semibold sectiont border-yellow pb-3 my-3">Detalles</h2>
 
-<h2>Detalles</h2>
+            <table class="table misord lexend-regular my-1">
+                <thead class="c-title">
+                    <tr>
+                        <th style="color: #626364;">Producto</th>
+                        <th style="color: #626364;">Cantidad</th>
+                        <th style="color: #626364;">Total</th>
+                    </tr>
+                </thead>
 
-<table class="table misord">
-    <thead>
-        <tr>
-            <th>Producto</th>
-            <th>Cantidad</th>
-            <th>Total</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model.Ordendetalles)
-        {
-            <tr>
-                <td>@item.IdlibrosNavigation.Nombre</td>
-                <td>@item.Cantidad</td>
-                <td>@item.Precio.ToString("C")</td>
-            </tr>
-        }
-    </tbody>
-    <tfoot>
-        <tr>
-            <th>Total</th>
-            <th colspan="2">@Model.Total.ToString("C")</th>
-        </tr>
-    </tfoot>
-</table>
+                <tbody class="t-body">
+                    @foreach (var item in Model.Ordendetalles)
+                    {
+                    <tr>
+                        <td style="color: #626364;">@item.IdlibrosNavigation.Nombre</td>
+                        <td style="color: #626364;">@item.Cantidad</td>
+                        <td style="color: #626364;">@item.Precio.ToString("C")</td>
+                    </tr>
+                    }
+                </tbody>
+
+                <tfoot class="t-foot">
+                    <tr>
+                        <th style="color: #272926;" colspan="2">Total</th>
+                        <th style="color: #626364;">@Model.Total.ToString("C")</th>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <a asp-controller="Ordens" asp-action="Index"><button class="btn btn-orden lexend-medium px-4 shadow-sm mt-4">Ver mis ordenes</button></a>
