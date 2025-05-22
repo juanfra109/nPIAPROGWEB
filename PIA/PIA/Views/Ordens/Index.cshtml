@@ -4,45 +4,49 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Mis ordenes</h1>
+<h1 class="lexend-semibold sectiont border-yellow pb-2 my-3">Mis ordenes</h1>
 
-<table class="table misord">
-    <thead>
-        <tr>
-            <th>
-                # Orden
-            </th>
-            <th>
-                Fecha
-            </th>
-            <th>
-                Metodo Pago
-            </th>
-            <th>
-                Total
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @item.Idorden
-            </td>
-            <td>
-                @item.Fecha.ToString("g")
-            </td>
-            <td>
-                @item.IdmetodopagNavigation.Descripcion
-            </td>
-            <td>
-                @item.Total.ToString("C")
-            </td>
-            <td>
-                    <a asp-action="Details" asp-route-id="@item.Idorden"><button class="btn btn-dark">Imprimir</button></a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+            <table class="table misord lexend-regular my-1">
+                <thead class="c-title">
+                    <tr>
+                        <th style="color: #626364;">
+                            # Orden
+                        </th>
+                        <th style="color: #626364;">
+                            Fecha
+                        </th>
+                        <th style="color: #626364;">
+                            Metodo Pago
+                        </th>
+                        <th style="color: #626364;">
+                            Total
+                        </th>
+                        <th style="color: #626364;">
+                            Comprobante
+                        </th>
+                    </tr>
+                </thead>
+
+                <tbody class="t-body">
+                    @foreach (var item in Model) {
+                    <tr>
+                        <td style="color: #626364;">
+                            @item.Idorden
+                        </td>
+                        <td style="color: #626364;">
+                            @item.Fecha.ToString("g")
+                        </td>
+                        <td style="color: #626364;">
+                            @item.IdmetodopagNavigation.Descripcion
+                        </td>
+                        <td style="color: #626364;">
+                            @item.Total.ToString("C")
+                        </td>
+                        <td>
+                            <a asp-action="Details" asp-route-id="@item.Idorden"><button
+                                    class="btn btn-dark">Imprimir</button></a>
+                        </td>
+                    </tr>
+                    }
+                </tbody>
+            </table>
