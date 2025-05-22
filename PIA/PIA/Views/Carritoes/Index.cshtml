@@ -4,59 +4,67 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Mi carrito</h1>
+<h1 class="lexend-semibold sectiont border-yellow pb-2">Mi carrito</h1>
 
 
-<table class="table tablacarr">
-    <thead>
-        <tr>
-            <th>
-                Libro
-            </th>
-            <th>
-                Cantidad
-            </th>
-            <th>
-                Total
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>
-                    @item.IdLibroNavigation.Nombre
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Cantidad)
-                </td>
-                <td>
-                    @item.Total.ToString("C")
-                </td>
-                <td>
-                    @Html.ActionLink("Eliminar", "Delete", new { LibroId = item.IdLibro })
-                </td>
-            </tr>
-        }
-    </tbody>
-    <tfoot>
-        <tr>
-            <td>Total</td>
-            <td colspan="3">@(Model.Sum(item => item.Total).ToString("C"))</td>
-        </tr>
-    </tfoot>
-</table>
+<table class="table tablacarr lexend-regular my-1">
+                <thead class="c-title">
+                    <tr>
+                        <th  style="color: #626364;">
+                            Libro
+                        </th>
+                        <th style="color: #626364;">
+                            Cantidad
+                        </th>
+                        <th style="color: #626364;">
+                            Total
+                        </th>
+                        <th style="color: #626364;">
+                            Eliminar
+                        </th>
+                    </tr>
+                </thead>
 
-@if (Model.Any())
-{
-    <div class="row justify-content-end">
-        <form asp-controller="Ordens" asp-action="CrearOrden" method="post">
-            <div class="input-group">
-                <select class="form-select" id="metodoPago" name="metodoPago" asp-items="ViewBag.MetodosPago"></select>
-                <button class="btn btn-success" type="submit">Crear Orden</button>
+                <tbody class="t-body">
+                    @foreach (var item in Model)
+                    {
+                    <tr>
+                        <td style="color: #626364;">
+                            @item.IdLibroNavigation.Nombre
+                        </td>
+                        <td style="color: #626364;">
+                            @Html.DisplayFor(modelItem => item.Cantidad)
+                        </td>
+                        <td style="color: #626364;">
+                            @item.Total.ToString("C")
+                        </td>
+                        <td style="color: #626364;">
+                            @Html.ActionLink("Eliminar", "Delete", new { LibroId = item.IdLibro })
+                        </td>
+                    </tr>
+                    }
+                </tbody>
+
+                <tfoot class="t-foot">
+                    <tr>
+                        <td style="color: #272926;">Total</td>
+                        <td></td>
+                        <td style="color: #626364;" colspan="2">@(Model.Sum(item => item.Total).ToString("C"))</td>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <br>
+            <strong class="lexend-semibold mt-2">Método de pago:</strong>
+            @if (Model.Any())
+            {
+            <div class="row justify-content-end">
+                <form asp-controller="Ordens" asp-action="CrearOrden" method="post">
+                    <div class="input-group">
+                        <select class="form-select" id="metodoPago" name="metodoPago"
+                            asp-items="ViewBag.MetodosPago"></select>
+                        <button class="btn btn-success" type="submit">Crear Orden</button>
+                    </div>
+                </form>
             </div>
-        </form>
-    </div>
-}
+            }
